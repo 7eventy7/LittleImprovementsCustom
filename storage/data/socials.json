@@ -1,26 +1,14 @@
 [
 	{
-		"title": "Discord",
-		"iconName": "discord",
-		"style": "fab",
-		"url": "https://www.beatso.tk/discord/"
-	},
-	{
-		"title": "Twitter",
-		"iconName": "twitter",
-		"style": "fab",
-		"url": "https://twitter.com/licustom"
-	},
-	{
 		"title": "GitHub",
 		"iconName": "github",
 		"style": "fab",
-		"url": "https://github.com/LittleImprovementsCustom/LittleImprovementsCustom"
+		"url": "https://github.com/7eventy7/LittleImprovementsCustom"
 	},
 	{
 		"title": "PMC",
 		"iconName": "globe-americas",
 		"style": "fas",
-		"url": "https://www.planetminecraft.com/texture-pack/little-improvements-custom/"
+		"url": "https://www.planetminecraft.com/member/7eventy7/"
 	}
 ]
