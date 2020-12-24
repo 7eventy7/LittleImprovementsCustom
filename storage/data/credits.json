@@ -1,19 +1,19 @@
 [
     {
+        "name": "Vanilla: Reloaded",
+        "group": "contributor",
+        "link": "https://www.littleimprovements-custom.tk/",
+        "type": "static",
+        "avatar": "custom-logo.png",
+        "desc": "Original website"
+    },
+    {
         "name": "Beatso",
         "group": "contributor",
         "link": "https://www.beatso.tk",
         "type": "dynamic",
         "uuid": "895ae84776e0441283db420cf8444e30",
         "desc": "Website development"
-    },
-    {
-        "name": "Vanilla: Reloaded",
-        "group": "contributor",
-        "link": "https://www.littleimprovements-custom.tk/",
-        "type": "static",
-        "avatar": "custom-logo.png",
-        "desc": "Pack development"
     },
     {
         "name": "7eventy7",
