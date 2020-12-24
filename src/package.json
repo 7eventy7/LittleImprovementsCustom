@@ -1,7 +1,7 @@
 {
 	"name": "littleimprovements-custom",
 	"version": "1.0.0",
-	"description": "An open-source resource pack picker made for Minecraft.",
+	"description": "A vanilla styled custom resource pack picker.",
 	"homepage": "https://www.littleimprovements-custom.tk/",
 	"main": "app.js",
 	"scripts": {
