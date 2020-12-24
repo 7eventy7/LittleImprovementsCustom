@@ -7,4 +7,4 @@ assignees: ''
 
 ---
 
-<!--  Hey there! Thanks for suggesting something for Vanilla: Reloaded. Please give some detail about the feature you'd like to see below. Thanks :)  -->
+<!--  Hey there! Thanks for suggesting something for Self-Serve. Please give some detail about the feature you'd like to see below. Thanks :)  -->

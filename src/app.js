@@ -125,7 +125,7 @@ app.post("/download", function (req, res) {
 	}
 
 	// add selectedModules.txt file
-	const infoText = `Vanilla: Reloaded\nDownloaded: ${new Date().toUTCString()}\nID: ${packID}\nPlatform: ${req.body.platform}\n\nSelected modules:\n${selectedModules.join("\n")}`
+	const infoText = `Self-Serve\nDownloaded: ${new Date().toUTCString()}\nID: ${packID}\nPlatform: ${req.body.platform}\n\nSelected modules:\n${selectedModules.join("\n")}`
 	archive.append(infoText,{name:"selectedModules.txt"})
 
 	// add rawSelectedModules.json file
