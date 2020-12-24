@@ -1,6 +1,6 @@
 [
     {
-        "name": "Self-Serve",
+        "name": "Little Improvements: Custom",
         "group": "contributor",
         "link": "https://www.littleimprovements-custom.tk/",
         "type": "static",
@@ -19,8 +19,8 @@
         "name": "7eventy7",
         "group": "team",
         "link": "https://www.planetminecraft.com/member/7eventy7/",
-        "type": "dynamic",
-        "uuid": "d3d38c1b72364ae38299a68c27d72c69",
+        "type": "static",
+        "avatar": "7eventy7.png",
         "desc": "Pack development"
     },
     {
