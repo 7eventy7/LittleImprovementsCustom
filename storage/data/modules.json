@@ -17,6 +17,27 @@
     },
     {
 
+        "id": "redderCrimson",
+
+        "label": "Redder Crimson",
+
+        "description": "Increases the redness of crimson related textures",
+
+        "category": "aesthetic",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false,
+
+        "merges": [{
+            "id": "variousDoorFixes",
+            "mergeWith": "variousDoorFixes-AND-redderCrimson"
+        }]
+    },
+    {
+
         "id": "longSides",
 
         "label": "Long Sides",
@@ -332,11 +353,48 @@
     },
     {
 
-        "id": "terracottaCreeperFix",
+        "id": "variousDoorFixes",
 
-        "label": "Terracotta Creeper Fix",
+        "label": "Various Door Fixes",
 
-        "description": "Switches the creeper face from cyan to green",
+        "description": "Trapdoor handles, door items, and side textures",
+
+        "category": "fixes",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false,
+
+        "merges": [{
+            "id": "redderCrimson",
+            "mergeWith": "variousDoorFixes-AND-redderCrimson"
+        }]
+    },
+    {
+
+        "id": "itemFrameFix",
+
+        "label": "Item Frame Fix",
+
+        "description": "Square item frames with no item icon in the center",
+
+        "category": "fixes",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
+        "id": "emptyArmorSlotFix",
+
+        "label": "Empty Armor Slot Fix",
+
+        "description": "Changes armor slot outlines to resemble actual armor",
 
         "category": "fixes",
         
@@ -382,6 +440,22 @@
             "id": "longSides",
             "mergeWith": "longSides-AND-nyliumTopFix"
         }]
+    },
+    {
+
+        "id": "terracottaCreeperFix",
+
+        "label": "Terracotta Creeper Fix",
+
+        "description": "Switches the creeper face from cyan to green",
+
+        "category": "fixes",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
     },
     {
         "id": "uniqueCampfires-AND-ashlessCampfires",
