@@ -361,7 +361,23 @@
 
         "category": "animated",
         
-        "iconType": "png",
+        "iconType": "gif",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
+        "id": "animatedFurnaces",
+
+        "label": "Animated Furnaces",
+
+        "description": "Top, side and front animations for all 3 furnace types",
+
+        "category": "animated",
+        
+        "iconType": "gif",
 
         "hidden": false,
 
