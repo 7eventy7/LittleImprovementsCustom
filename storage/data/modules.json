@@ -33,6 +33,64 @@
     },
     {
 
+        "id": "uniqueStems",
+
+        "label": "Unique Stems",
+
+        "description": "Melon & pumpkin stems changed to seed color",
+
+        "category": "aesthetic",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
+        "id": "ashlessCampfires",
+
+        "label": "Ashless Campfires",
+
+        "description": "Removes the ash from unlit campfires",
+
+        "category": "aesthetic",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false,
+
+        "merges": [{
+            "id": "uniqueCampfires",
+            "mergeWith": "uniqueCampfires-AND-ashlessCampfires"
+        }]
+    },
+    {
+
+        "id": "uniqueCampfires",
+
+        "label": "Unique Campfires",
+
+        "description": "Campfires & Soul Campfires use unique logs",
+
+        "category": "aesthetic",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false,
+
+        "merges": [{
+            "id": "ashlessCampfires",
+            "mergeWith": "uniqueCampfires-AND-ashlessCampfires"
+        }]
+    },
+    {
+
         "id": "smoothLevers",
 
         "label": "Smooth Levers",
@@ -40,6 +98,48 @@
         "description": "Revamps all things lever",
 
         "category": "aesthetic",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false,
+
+        "merges": [{
+            "id": "visuallyPoweredActivation",
+            "mergeWith": "visuallyPoweredActivation-AND-smoothLevers"
+        }]
+    },
+    {
+
+        "id": "visuallyPoweredActivation",
+
+        "label": "Visually Powered Activation",
+
+        "description": "Blockstate indicating levers, pressure plates & buttons",
+
+        "category": "utility",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false,
+
+        "merges": [{
+            "id": "smoothLevers",
+            "mergeWith": "visuallyPoweredActivation-AND-smoothLevers"
+        }]
+    },
+    {
+
+        "id": "smallBossbars",
+
+        "label": "Small Bossbars",
+
+        "description": "Reduces the size of bossbars",
+
+        "category": "gui",
         
         "iconType": "png",
 
@@ -62,5 +162,29 @@
         "hidden": false,
 
         "lang": false
+    },
+    {
+
+        "id": "melonPumpkinFix",
+
+        "label": "Melon & Pumpkin Fix",
+
+        "description": "Bottom textures, greener melon & seed color",
+
+        "category": "fixes",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+        "id": "uniqueCampfires-AND-ashlessCampfires",
+        "hidden": true
+    },
+    {
+        "id": "visuallyPoweredActivation-AND-smoothLevers",
+        "hidden": true
     }
 ]
