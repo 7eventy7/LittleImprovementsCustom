@@ -70,22 +70,6 @@
     },
     {
 
-        "id": "uniqueTorches",
-
-        "label": "Unique Torches",
-
-        "description": "Birch torches & dark oak soul torches",
-
-        "category": "aesthetic",
-        
-        "iconType": "png",
-
-        "hidden": false,
-
-        "lang": false
-    },
-    {
-
         "id": "ashlessCampfires",
 
         "label": "Ashless Campfires",
@@ -125,6 +109,22 @@
             "id": "ashlessCampfires",
             "mergeWith": "uniqueCampfires-AND-ashlessCampfires"
         }]
+    },
+    {
+
+        "id": "uniqueTorches",
+
+        "label": "Unique Torches",
+
+        "description": "Birch torches & dark oak soul torches",
+
+        "category": "aesthetic",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
     },
     {
 
