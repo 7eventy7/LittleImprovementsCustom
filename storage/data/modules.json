@@ -337,6 +337,22 @@
     },
     {
 
+        "id": "armorSlotOutlines",
+
+        "label": "Armor Slot Outlines",
+
+        "description": "Changes armor slot outlines to resemble actual armor",
+
+        "category": "gui",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
         "id": "shortFires",
 
         "label": "Short Fires",
@@ -379,22 +395,6 @@
         "label": "Item Frame Fix",
 
         "description": "Square item frames with no item icon in the center",
-
-        "category": "fixes",
-        
-        "iconType": "png",
-
-        "hidden": false,
-
-        "lang": false
-    },
-    {
-
-        "id": "emptyArmorSlotFix",
-
-        "label": "Empty Armor Slot Fix",
-
-        "description": "Changes armor slot outlines to resemble actual armor",
 
         "category": "fixes",
         
