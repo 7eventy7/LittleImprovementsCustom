@@ -8,16 +8,16 @@
 		"name": "Utility"
 	},
 	{
-		"id": "variated",
-		"name": "Variated"
+		"id": "gui",
+		"name": "GUI"
 	},
 	{
 		"id": "fixes",
-		"name": "Fixes & Inconsistencies"
+		"name": "Fixes"
 	},
 	{
-		"id": "snapshot",
-		"name": "Snapshot",
+		"id": "fun",
+		"name": "Fun",
 		"description": "Packs designed for snapshots of 1.17, the Caves & Cliffs update. These will not work on 1.16 or below."
 	}
 ]
