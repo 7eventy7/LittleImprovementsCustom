@@ -33,6 +33,27 @@
     },
     {
 
+        "id": "longSides",
+
+        "label": "Long Sides",
+
+        "description": "Lowers the side texture of grass variants",
+
+        "category": "aesthetic",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false,
+
+        "merges": [{
+            "id": "nyliumTopFix",
+            "mergeWith": "longSides-AND-nyliumTopFix"
+        }]
+    },
+    {
+
         "id": "uniqueStems",
 
         "label": "Unique Stems",
@@ -175,7 +196,7 @@
         "merges": [{
             "id": "smoothLevers",
             "mergeWith": "visuallyPoweredActivation-AND-smoothLevers"
-        }]
+        }],
     },
     {
 
@@ -242,11 +263,36 @@
         "lang": false
     },
     {
+
+        "id": "nyliumTopFix",
+
+        "label": "Nylium Top Fix",
+
+        "description": "Fixes the coloration of crimson & warped nylium",
+
+        "category": "fixes",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false,
+
+        "merges": [{
+            "id": "longSides",
+            "mergeWith": "longSides-AND-nyliumTopFix"
+        }]
+    },
+    {
         "id": "uniqueCampfires-AND-ashlessCampfires",
         "hidden": true
     },
     {
         "id": "visuallyPoweredActivation-AND-smoothLevers",
+        "hidden": true
+    },
+    {
+        "id": "longSides-AND-nyliumTopFix",
         "hidden": true
     },
     {
