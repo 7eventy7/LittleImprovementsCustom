@@ -196,7 +196,7 @@
         "merges": [{
             "id": "smoothLevers",
             "mergeWith": "visuallyPoweredActivation-AND-smoothLevers"
-        }],
+        }]
     },
     {
 
