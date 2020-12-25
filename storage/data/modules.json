@@ -1,22 +1,6 @@
 [
     {
 
-        "id": "cleanShulkers",
-
-        "label": "Clean Shulkers",
-
-        "description": "Removes the scraggly line around shulkers",
-
-        "category": "aesthetic",
-        
-        "iconType": "png",
-
-        "hidden": false,
-
-        "lang": false
-    },
-    {
-
         "id": "whiterBirch",
 
         "label": "Whiter Birch",
@@ -59,6 +43,38 @@
         "label": "Unique Stems",
 
         "description": "Melon & pumpkin stems changed to seed color",
+
+        "category": "aesthetic",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
+        "id": "cleanShulkers",
+
+        "label": "Clean Shulkers",
+
+        "description": "Removes the scraggly line around shulkers",
+
+        "category": "aesthetic",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
+        "id": "uniqueTorches",
+
+        "label": "Unique Torches",
+
+        "description": "Birch torches & dark oak soul torches",
 
         "category": "aesthetic",
         
@@ -154,6 +170,90 @@
         "merges": [{
             "id": "terracottaCreeperFix",
             "mergeWith": "properlyGlazedTerracotta-AND-terracottaCreeperFix"
+        }]
+    },
+    {
+
+        "id": "cleanRedstoneDust",
+
+        "label": "Clean Redstone Dust",
+
+        "description": "Changes redstone dust texture to a clean line",
+
+        "category": "utility",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false,
+
+        "merges": [{
+            "id": "signalStrengthDisplay",
+            "mergeWith": "cleanRedstoneDust-AND-signalStrengthDisplay"
+        }]
+    },
+    {
+
+        "id": "signalStrengthDisplay",
+
+        "label": "Signal Strength Display",
+
+        "description": "Adds signal strength indicators to redstone dust",
+
+        "category": "utility",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false,
+
+        "merges": [{
+            "id": "cleanRedstoneDust",
+            "mergeWith": "cleanRedstoneDust-AND-signalStrengthDisplay"
+        }]
+    },
+    {
+
+        "id": "cleanRedstoneTorch",
+
+        "label": "Clean Redstone Torch",
+
+        "description": "Redstone torch without the nasty border",
+
+        "category": "utility",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false,
+
+        "merges": [{
+            "id": "repeaterComparatorBlockstateIndicators",
+            "mergeWith": "repeaterComparatorBlockstateIndicators-AND-cleanRedstoneTorch"
+        }]
+    },
+    {
+
+        "id": "repeaterComparatorBlockstateIndicators",
+
+        "label": "Repeater & Comparator Blockstate Indicators",
+
+        "description": "Changes texture for top, bottom and sides",
+
+        "category": "utility",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false,
+
+        "merges": [{
+            "id": "cleanRedstoneTorch",
+            "mergeWith": "repeaterComparatorBlockstateIndicators-AND-cleanRedstoneTorch"
         }]
     },
     {
@@ -285,6 +385,14 @@
     },
     {
         "id": "uniqueCampfires-AND-ashlessCampfires",
+        "hidden": true
+    },
+    {
+        "id": "cleanRedstoneDust-AND-signalStrengthDisplay",
+        "hidden": true
+    },
+    {
+        "id": "repeaterComparatorBlockstateIndicators-AND-cleanRedstoneTorch",
         "hidden": true
     },
     {
