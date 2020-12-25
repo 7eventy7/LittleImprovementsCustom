@@ -16,5 +16,59 @@
         "hidden": false,
 
         "lang": false
+    },
+    {
+
+        "id": "whiterBirch",
+
+        "label": "Whiter Birch",
+
+        "description": "Adjusts the vibrance of birch related textures",
+
+        "category": "aesthetic",
+
+        "author": "7eventy7",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
+        "id": "smoothLevers",
+
+        "label": "Smooth Levers",
+
+        "description": "Revamps all things lever",
+
+        "category": "aesthetic",
+
+        "author": "7eventy7",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
+        "id": "shortFires",
+
+        "label": "Short Fires",
+
+        "description": "Drastically reduces fire texture heights",
+
+        "category": "unobtrusive",
+
+        "author": "7eventy7",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
     }
 ]

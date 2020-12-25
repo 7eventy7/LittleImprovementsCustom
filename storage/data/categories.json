@@ -12,6 +12,10 @@
 		"name": "GUI"
 	},
 	{
+		"id": "unobtrusive",
+		"name": "Unobtrusive"
+	},
+	{
 		"id": "fixes",
 		"name": "Fixes"
 	},
