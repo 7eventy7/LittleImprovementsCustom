@@ -91,6 +91,52 @@
     },
     {
 
+        "id": "naturalGlazedTerracotta",
+
+        "label": "Natural Glazed Terracotta",
+
+        "description": "Changes glazed terracotta colors to match non-glazed",
+
+        "category": "aesthetic",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false,
+
+        "incompatibilities": ["properlyGlazedTerracotta"],
+
+        "merges": [{
+            "id": "terracottaCreeperFix",
+            "mergeWith": "naturalGlazedTerracotta-AND-terracottaCreeperFix"
+        }]
+    },
+    {
+
+        "id": "properlyGlazedTerracotta",
+
+        "label": "Properly Glazed Terracotta",
+
+        "description": "Changes glazed terracotta to match color names",
+
+        "category": "aesthetic",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false,
+
+        "incompatibilities": ["naturalGlazedTerracotta"],
+
+        "merges": [{
+            "id": "terracottaCreeperFix",
+            "mergeWith": "properlyGlazedTerracotta-AND-terracottaCreeperFix"
+        }]
+    },
+    {
+
         "id": "smoothLevers",
 
         "label": "Smooth Levers",
@@ -165,6 +211,22 @@
     },
     {
 
+        "id": "terracottaCreeperFix",
+
+        "label": "Terracotta Creeper Fix",
+
+        "description": "Switches the creeper face from cyan to green",
+
+        "category": "fixes",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
         "id": "melonPumpkinFix",
 
         "label": "Melon & Pumpkin Fix",
@@ -185,6 +247,14 @@
     },
     {
         "id": "visuallyPoweredActivation-AND-smoothLevers",
+        "hidden": true
+    }
+    {
+        "id": "naturalGlazedTerracotta-AND-terracottaCreeperFix",
+        "hidden": true
+    },
+    {
+        "id": "properlyGlazedTerracotta-AND-terracottaCreeperFix",
         "hidden": true
     }
 ]
