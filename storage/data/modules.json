@@ -573,7 +573,32 @@
 
         "hidden": false,
 
-        "lang": false
+        "lang": false,
+
+        "merges": [{
+            "id": "naturalGlazedTerracotta",
+            "mergeWith": "naturalGlazedTerracotta-AND-terracottaCreeperFix"
+    },
+    {
+            "id": "properlyGlazedTerracotta",
+            "mergeWith": "properlyGlazedTerracotta-AND-terracottaCreeperFix"
+            }]
+    },
+    {
+        "id": "naturalGlazedTerracotta",
+        "incompatibilities": ["properlyGlazedTerracotta"]
+    },
+    {
+        "id": "properlyGlazedTerracotta",
+        "incompatibilities": ["naturalGlazedTerracotta"]
+    },
+    {
+        "id": "naturalGlazedTerracotta-AND-terracottaCreeperFix",
+        "hidden": true
+    },
+    {
+        "id": "properlyGlazedTerracotta-AND-terracottaCreeperFix",
+        "hidden": true
     },
     {
         "id": "uniqueCampfires-AND-ashlessCampfires",
@@ -595,12 +620,4 @@
         "id": "longSides-AND-nyliumTopFix",
         "hidden": true
     },
-    {
-        "id": "naturalGlazedTerracotta-AND-terracottaCreeperFix",
-        "hidden": true
-    },
-    {
-        "id": "properlyGlazedTerracotta-AND-terracottaCreeperFix",
-        "hidden": true
-    }
 ]
