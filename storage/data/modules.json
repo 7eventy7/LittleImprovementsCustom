@@ -585,14 +585,6 @@
             }]
     },
     {
-        "id": "naturalGlazedTerracotta",
-        "incompatibilities": ["properlyGlazedTerracotta"]
-    },
-    {
-        "id": "properlyGlazedTerracotta",
-        "incompatibilities": ["naturalGlazedTerracotta"]
-    },
-    {
         "id": "naturalGlazedTerracotta-AND-terracottaCreeperFix",
         "hidden": true
     },
