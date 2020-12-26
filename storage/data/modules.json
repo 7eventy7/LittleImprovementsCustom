@@ -371,9 +371,9 @@
     },
     {
 
-        "id": "smoothLevers",
+        "id": "smoothStoneLever",
 
-        "label": "Smooth Levers",
+        "label": "Smooth Stone Lever",
 
         "description": "Revamps all things lever",
 
@@ -387,7 +387,7 @@
 
         "merges": [{
             "id": "visuallyPoweredActivation",
-            "mergeWith": "visuallyPoweredActivation-AND-smoothLevers"
+            "mergeWith": "visuallyPoweredActivation-AND-smoothStoneLever"
         }]
     },
     {
@@ -407,8 +407,8 @@
         "lang": false,
 
         "merges": [{
-            "id": "smoothLevers",
-            "mergeWith": "visuallyPoweredActivation-AND-smoothLevers"
+            "id": "smoothStoneLever",
+            "mergeWith": "visuallyPoweredActivation-AND-smoothStoneLever"
         }]
     },
     {
@@ -663,7 +663,7 @@
         "hidden": true
     },
     {
-        "id": "visuallyPoweredActivation-AND-smoothLevers",
+        "id": "visuallyPoweredActivation-AND-smoothStoneLever",
         "hidden": true
     },
     {
