@@ -36,7 +36,7 @@
 
         "lang": false,
 
-        "incompatibilities": ["variousDoorFixesImprovedWoods", "variousDoorFixes"]
+        "incompatibilities": ["variousDoorFixesImprovedWoods", "variousDoorFixes", "uniqueCampfires", "uniqueTorches"]
     },
     {
 
@@ -54,7 +54,7 @@
 
         "lang": false,
 
-        "incompatibilities": ["variousDoorFixesImprovedWoods", "variousDoorFixes"]
+        "incompatibilities": ["variousDoorFixesImprovedWoods", "variousDoorFixes", "uniqueCampfires", "uniqueTorches"]
     },
     {
 
@@ -72,7 +72,7 @@
 
         "lang": false,
 
-        "incompatibilities": ["variousDoorFixesImprovedWoods", "variousDoorFixes"]
+        "incompatibilities": ["variousDoorFixesImprovedWoods", "variousDoorFixes", "uniqueCampfires", "uniqueTorches"]
     },
     {
 
@@ -90,7 +90,7 @@
 
         "lang": false,
 
-        "incompatibilities": ["variousDoorFixesImprovedWoods", "variousDoorFixes"]
+        "incompatibilities": ["variousDoorFixesImprovedWoods", "variousDoorFixes", "uniqueCampfires", "uniqueTorches"]
     },
     {
 
