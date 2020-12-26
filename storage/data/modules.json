@@ -94,11 +94,11 @@
     },
     {
 
-        "id": "uniqueStems",
+        "id": "naturalGlazedTerracotta",
 
-        "label": "Unique Stems",
+        "label": "Natural Glazed Terracotta",
 
-        "description": "Melon & pumpkin stems changed to seed color",
+        "description": "Changes glazed terracotta colors to match non-glazed",
 
         "category": "aesthetic",
         
@@ -106,7 +106,37 @@
 
         "hidden": false,
 
-        "lang": false
+        "lang": false,
+
+        "incompatibilities": ["properlyGlazedTerracotta"],
+
+        "merges": [{
+            "id": "terracottaCreeperFix",
+            "mergeWith": "naturalGlazedTerracotta-AND-terracottaCreeperFix"
+        }]
+    },
+    {
+
+        "id": "properlyGlazedTerracotta",
+
+        "label": "Properly Glazed Terracotta",
+
+        "description": "Changes glazed terracotta to match color names",
+
+        "category": "aesthetic",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false,
+
+        "incompatibilities": ["naturalGlazedTerracotta"],
+
+        "merges": [{
+            "id": "terracottaCreeperFix",
+            "mergeWith": "properlyGlazedTerracotta-AND-terracottaCreeperFix"
+        }]
     },
     {
 
@@ -126,11 +156,11 @@
     },
     {
 
-        "id": "cleanScaffolding",
+        "id": "cleanStainedGlass",
 
-        "label": "Clean Scaffolding",
+        "label": "Clean Stained Glass",
 
-        "description": "Removes the net inside scaffolding",
+        "description": "Removes the border from all stained glass",
 
         "category": "aesthetic",
         
@@ -142,11 +172,11 @@
     },
     {
 
-        "id": "cleanStainedGlass",
+        "id": "cleanScaffolding",
 
-        "label": "Clean Stained Glass",
+        "label": "Clean Scaffolding",
 
-        "description": "Removes the border from all stained glass",
+        "description": "Removes the net inside scaffolding",
 
         "category": "aesthetic",
         
@@ -220,34 +250,11 @@
     },
     {
 
-        "id": "naturalGlazedTerracotta",
+        "id": "uniqueStems",
 
-        "label": "Natural Glazed Terracotta",
+        "label": "Unique Stems",
 
-        "description": "Changes glazed terracotta colors to match non-glazed",
-
-        "category": "aesthetic",
-        
-        "iconType": "png",
-
-        "hidden": false,
-
-        "lang": false,
-
-        "incompatibilities": ["properlyGlazedTerracotta"],
-
-        "merges": [{
-            "id": "terracottaCreeperFix",
-            "mergeWith": "naturalGlazedTerracotta-AND-terracottaCreeperFix"
-        }]
-    },
-    {
-
-        "id": "properlyGlazedTerracotta",
-
-        "label": "Properly Glazed Terracotta",
-
-        "description": "Changes glazed terracotta to match color names",
+        "description": "Melon & pumpkin stems changed to seed color",
 
         "category": "aesthetic",
         
@@ -255,14 +262,7 @@
 
         "hidden": false,
 
-        "lang": false,
-
-        "incompatibilities": ["naturalGlazedTerracotta"],
-
-        "merges": [{
-            "id": "terracottaCreeperFix",
-            "mergeWith": "properlyGlazedTerracotta-AND-terracottaCreeperFix"
-        }]
+        "lang": false
     },
     {
 
@@ -323,17 +323,17 @@
         "lang": false,
 
         "merges": [{
-            "id": "repeaterComparatorBlockstateIndicators",
-            "mergeWith": "repeaterComparatorBlockstateIndicators-AND-cleanRedstoneTorch"
+            "id": "improvedRepeaterComparator",
+            "mergeWith": "improvedRepeaterComparator-AND-cleanRedstoneTorch"
         }]
     },
     {
 
-        "id": "repeaterComparatorBlockstateIndicators",
+        "id": "improvedRepeaterComparator",
 
-        "label": "Repeater & Comparator Blockstate Indicators",
+        "label": "Improved Repeater & Comparator",
 
-        "description": "Changes texture for top, bottom and sides",
+        "description": "Side, bottom and top blockstate indicators",
 
         "category": "utility",
         
@@ -345,7 +345,28 @@
 
         "merges": [{
             "id": "cleanRedstoneTorch",
-            "mergeWith": "repeaterComparatorBlockstateIndicators-AND-cleanRedstoneTorch"
+            "mergeWith": "improvedRepeaterComparator-AND-cleanRedstoneTorch"
+        }]
+    },
+    {
+
+        "id": "improvedDropperDispenser",
+
+        "label": "Improved Dropper & Dispenser",
+
+        "description": "Side, bottom and top facing indicators",
+
+        "category": "utility",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false,
+
+        "merges": [{
+            "id": "animatedFurnaces",
+            "mergeWith": "improvedDropperDispenser-AND-animatedFurnaces"
         }]
     },
     {
@@ -468,7 +489,12 @@
 
         "hidden": false,
 
-        "lang": false
+        "lang": false,
+
+        "merges": [{
+            "id": "improvedDropperDispenser",
+            "mergeWith": "improvedDropperDispenser-AND-animatedFurnaces"
+        }]
     },
     {
 
@@ -513,6 +539,38 @@
         "label": "Item Frame Fix",
 
         "description": "Square item frames with no item icon in the center",
+
+        "category": "fixes",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
+        "id": "jappaCompass",
+
+        "label": "Jappa Compass",
+
+        "description": "Compass texture update as it was unchanged in 1.14",
+
+        "category": "fixes",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
+        "id": "jappaClock",
+
+        "label": "Jappa Clock",
+
+        "description": "Clock texture update as it was unchanged in 1.14",
 
         "category": "fixes",
         
@@ -601,11 +659,15 @@
         "hidden": true
     },
     {
-        "id": "repeaterComparatorBlockstateIndicators-AND-cleanRedstoneTorch",
+        "id": "improvedRepeaterComparator-AND-cleanRedstoneTorch",
         "hidden": true
     },
     {
         "id": "visuallyPoweredActivation-AND-smoothLevers",
+        "hidden": true
+    },
+    {
+        "id": "improvedDropperDispenser-AND-animatedFurnaces",
         "hidden": true
     },
     {
