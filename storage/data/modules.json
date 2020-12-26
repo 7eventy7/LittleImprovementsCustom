@@ -578,8 +578,8 @@
         "merges": [{
             "id": "naturalGlazedTerracotta",
             "mergeWith": "naturalGlazedTerracotta-AND-terracottaCreeperFix"
-    },
-    {
+        },
+        {
             "id": "properlyGlazedTerracotta",
             "mergeWith": "properlyGlazedTerracotta-AND-terracottaCreeperFix"
             }]
