@@ -126,6 +126,38 @@
     },
     {
 
+        "id": "cleanScaffolding",
+
+        "label": "Clean Scaffolding",
+
+        "description": "Removes the net inside scaffolding",
+
+        "category": "aesthetic",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
+        "id": "cleanStainedGlass",
+
+        "label": "Clean Stained Glass",
+
+        "description": "Removes the border from all stained glass",
+
+        "category": "aesthetic",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
         "id": "ashlessCampfires",
 
         "label": "Ashless Campfires",
@@ -392,6 +424,22 @@
     },
     {
 
+        "id": "cleanVignette",
+
+        "label": "Clean Vignette",
+
+        "description": "Removes the screen vignette",
+
+        "category": "gui",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
         "id": "shortFires",
 
         "label": "Short Fires",
@@ -444,7 +492,7 @@
 
         "id": "variousDoorFixesImprovedWoods",
 
-        "label": "Various Door Fixes Improved Woods",
+        "label": "Various Door Fixes\nImproved Woods",
 
         "description": "Various Door Fixes with 4 wood type recolors",
 
