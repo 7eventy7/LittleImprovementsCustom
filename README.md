@@ -8,7 +8,7 @@ Self-Serve is a vanilla focused custom resource pack picker, created by [7eventy
 Choose and download your pack [here](https://www.selfserve.tk/)
 
 This is a fork of an original project named 'Little Improvements: Custom' & created by [Beatso](https://www.beatso.tk/)<br>
-Be sure to support this project on [its PMC page](https://www.planetminecraft.com/texture-pack/little-improvements-custom/)! 
+Be sure to support this project on its [PMC page](https://www.planetminecraft.com/texture-pack/little-improvements-custom/)! 
 
 [![Example of pack picker](https://api.apiflash.com/v1/urltoimage?access_key=a253347deb8747fa8ced27e5239223bf&no_ads=true&no_cookie_banners=true&no_tracking=true&url=https%3A%2F%2Fwww.littleimprovements-custom.tk%2F)](https://www.littleimprovements-custom.tk/)
 
