@@ -1,43 +1,6 @@
 [
     {
 
-        "id": "whiterBirch",
-
-        "label": "Whiter Birch",
-
-        "description": "Adjusts the vibrance of birch related textures",
-
-        "category": "aesthetic",
-        
-        "iconType": "png",
-
-        "hidden": false,
-
-        "lang": false
-    },
-    {
-
-        "id": "redderCrimson",
-
-        "label": "Redder Crimson",
-
-        "description": "Increases the redness of crimson related textures",
-
-        "category": "aesthetic",
-        
-        "iconType": "png",
-
-        "hidden": false,
-
-        "lang": false,
-
-        "merges": [{
-            "id": "variousDoorFixes",
-            "mergeWith": "variousDoorFixes-AND-redderCrimson"
-        }]
-    },
-    {
-
         "id": "longSides",
 
         "label": "Long Sides",
@@ -56,6 +19,78 @@
             "id": "nyliumTopFix",
             "mergeWith": "longSides-AND-nyliumTopFix"
         }]
+    },
+    {
+
+        "id": "whiterBirch",
+
+        "label": "Whiter Birch",
+
+        "description": "Adjusts the vibrance of birch related textures",
+
+        "category": "aesthetic",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false,
+
+        "incompatibilities": ["variousDoorFixesImprovedWoods", "variousDoorFixes"]
+    },
+    {
+
+        "id": "darkerDarkOak",
+
+        "label": "Darker Dark Oak",
+
+        "description": "Adjusts the exposure of dark oak related textures",
+
+        "category": "aesthetic",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false,
+
+        "incompatibilities": ["variousDoorFixesImprovedWoods", "variousDoorFixes"]
+    },
+    {
+
+        "id": "redderCrimson",
+
+        "label": "Redder Crimson",
+
+        "description": "Makes the coloration of crimson related textures red",
+
+        "category": "aesthetic",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false,
+
+        "incompatibilities": ["variousDoorFixesImprovedWoods", "variousDoorFixes"]
+    },
+    {
+
+        "id": "greenerJungle",
+
+        "label": "Greener Jungle",
+
+        "description": "Makes the coloration of jungle related textures green",
+
+        "category": "aesthetic",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false,
+
+        "incompatibilities": ["variousDoorFixesImprovedWoods", "variousDoorFixes"]
     },
     {
 
@@ -399,11 +434,26 @@
 
         "lang": false,
 
-        "merges": [{
-            "id": "redderCrimson",
-            "mergeWith": "variousDoorFixes-AND-redderCrimson"
-        }]
+        "incompatibilities": ["variousDoorFixesImprovedWoods", "whiterBirch", "darkerDarkOak", "redderCrimson", "greenerJungle"]
     },
+    {
+
+        "id": "variousDoorFixesImprovedWoods",
+
+        "label": "Various Door Fixes Improved Woods",
+
+        "description": "Various Door Fixes with 4 wood type recolors",
+
+        "category": "fixes",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false,
+
+        "incompatibilities": ["variousDoorFixes", "whiterBirch", "darkerDarkOak", "redderCrimson", "greenerJungle"]
+    },    
     {
 
         "id": "itemFrameFix",
