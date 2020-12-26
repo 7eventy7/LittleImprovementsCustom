@@ -392,6 +392,22 @@
     },
     {
 
+        "id": "cleanVignette",
+
+        "label": "Clean Vignette",
+
+        "description": "Removes the screen vignette",
+
+        "category": "gui",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
         "id": "smallBossbars",
 
         "label": "Small Bossbars",
@@ -413,22 +429,6 @@
         "label": "Armor Slot Outlines",
 
         "description": "Changes armor slot outlines to resemble actual armor",
-
-        "category": "gui",
-        
-        "iconType": "png",
-
-        "hidden": false,
-
-        "lang": false
-    },
-    {
-
-        "id": "cleanVignette",
-
-        "label": "Clean Vignette",
-
-        "description": "Removes the screen vignette",
 
         "category": "gui",
         
