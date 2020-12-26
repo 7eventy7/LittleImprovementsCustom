@@ -72,7 +72,7 @@
 
         "lang": false,
 
-        "incompatibilities": ["variousDoorFixesImprovedWoods", "variousDoorFixes", "uniqueCampfires", "uniqueTorches"]
+        "incompatibilities": ["variousDoorFixesImprovedWoods", "variousDoorFixes"]
     },
     {
 
@@ -90,7 +90,7 @@
 
         "lang": false,
 
-        "incompatibilities": ["variousDoorFixesImprovedWoods", "variousDoorFixes", "uniqueCampfires", "uniqueTorches"]
+        "incompatibilities": ["variousDoorFixesImprovedWoods", "variousDoorFixes"]
     },
     {
 
@@ -161,6 +161,8 @@
 
         "lang": false,
 
+        "incompatibilities": ["whiterBirch", "darkerDarkOak"],
+
         "merges": [{
             "id": "ashlessCampfires",
             "mergeWith": "uniqueCampfires-AND-ashlessCampfires"
@@ -180,7 +182,9 @@
 
         "hidden": false,
 
-        "lang": false
+        "lang": false,
+
+        "incompatibilities": ["whiterBirch", "darkerDarkOak"]
     },
     {
 
