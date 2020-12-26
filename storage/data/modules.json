@@ -62,7 +62,7 @@
 
         "label": "Redder Crimson",
 
-        "description": "Makes the coloration of crimson related textures red",
+        "description": "Adjusts the coloration of crimson related textures red",
 
         "category": "aesthetic",
         
@@ -80,7 +80,7 @@
 
         "label": "Greener Jungle",
 
-        "description": "Makes the coloration of jungle related textures green",
+        "description": "Adjusts the coloration of jungle related textures green",
 
         "category": "aesthetic",
         
