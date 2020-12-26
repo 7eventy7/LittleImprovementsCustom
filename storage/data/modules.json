@@ -550,6 +550,22 @@
     },
     {
 
+        "id": "crossbowColorFix",
+
+        "label": "Crossbow Color Fix",
+
+        "description": "Recolors crossbow to appear like the sticks used to make it",
+
+        "category": "fixes",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
         "id": "jappaCompass",
 
         "label": "Jappa Compass",
