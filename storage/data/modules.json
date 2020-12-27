@@ -814,7 +814,39 @@
 
         "label": "Jappa Blaze",
 
-        "description": "Changed blaze texture as it was unchanged in 1.14",
+        "description": "Recolors blaze texture to be softer and less harsh",
+
+        "category": "fixes",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
+        "id": "jappaZombie",
+
+        "label": "Jappa Zombie",
+
+        "description": "Retextures zombie clothing and several other fixes",
+
+        "category": "fixes",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
+        "id": "zombieVillagerColorFix",
+
+        "label": "Zombie Villager Color Fix",
+
+        "description": "Recolors zombie villager skin to be consistent with zombie",
 
         "category": "fixes",
         
