@@ -1,4 +1,4 @@
-[
+cha[
     {
 
         "id": "longSides",
@@ -740,7 +740,7 @@
 
         "label": "Chain & Lantern Color Fix",
 
-        "description": "Changes chain, lantern and soul lantern textures to be consistent with other iron items",
+        "description": "Recolors chain, lantern and soul lantern textures to be consistent with other iron",
 
         "category": "fixes",
         
