@@ -140,6 +140,48 @@
     },
     {
 
+        "id": "outlinedWool",
+
+        "label": "Outlined Wool",
+
+        "description": "Adds a dark outline to all wool blocks & carpets",
+
+        "category": "aesthetic",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false,
+
+        "merges": [{
+            "id": "smoothWool",
+            "mergeWith": "smoothWool-AND-outlinedWool"
+        }]
+    },
+    {
+
+        "id": "smoothWool",
+
+        "label": "Smooth Wool",
+
+        "description": "Reduces the graininess of wool block & carpet textures",
+
+        "category": "aesthetic",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false,
+
+        "merges": [{
+            "id": "outlinedWool",
+            "mergeWith": "smoothWool-AND-outlinedWool"
+        }]
+    },
+    {
+
         "id": "cleanShulkers",
 
         "label": "Clean Shulkers",
@@ -680,6 +722,10 @@
     },
     {
         "id": "properlyGlazedTerracotta-AND-terracottaCreeperFix",
+        "hidden": true
+    },
+    {
+        "id": "smoothWool-AND-outlinedWool",
         "hidden": true
     },
     {
