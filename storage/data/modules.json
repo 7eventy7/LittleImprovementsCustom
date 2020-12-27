@@ -519,6 +519,22 @@
     },
     {
 
+        "id": "hdTitleScreenLogo",
+
+        "label": "HD Title Screen Logo",
+
+        "description": "Increases the resolution of the title screen logo to HD",
+
+        "category": "gui",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
         "id": "shortFires",
 
         "label": "Short Fires",
@@ -613,6 +629,38 @@
         "label": "Crossbow Color Fix",
 
         "description": "Recolors crossbow to appear like the sticks used to make it",
+
+        "category": "fixes",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
+        "id": "beetrootItemFix",
+
+        "label": "Beetroot Item Fix",
+
+        "description": "Adds some greenery to the top of the beetroot item",
+
+        "category": "fixes",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
+        "id": "wheatColorFix",
+
+        "label": "Wheat Color Fix",
+
+        "description": "Recolors wheat to appear more golden with darker ties",
 
         "category": "fixes",
         
