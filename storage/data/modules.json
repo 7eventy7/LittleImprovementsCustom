@@ -408,22 +408,6 @@
     },
     {
 
-        "id": "mossyStickyPistons",
-
-        "label": "Mossy Sticky Pistons",
-
-        "description": "Adds moss to the cobble sides of sticky pistons",
-
-        "category": "redstone",
-        
-        "iconType": "png",
-
-        "hidden": false,
-
-        "lang": false
-    },
-    {
-
         "id": "smoothDropperDispenser",
 
         "label": "Smooth Dropper & Dispenser",
@@ -505,6 +489,22 @@
             "id": "smoothStoneLever",
             "mergeWith": "blockstateIndicatingActivation-AND-smoothStoneLever"
         }]
+    },
+    {
+
+        "id": "mossyStickyPistons",
+
+        "label": "Mossy Sticky Pistons",
+
+        "description": "Adds moss to the cobble sides of sticky pistons",
+
+        "category": "redstone",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
     },
     {
 
