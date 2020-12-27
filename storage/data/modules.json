@@ -842,9 +842,9 @@
     },
     {
 
-        "id": "zombieVillagerColorFix",
+        "id": "consistentZombieVillager",
 
-        "label": "Zombie Villager Color Fix",
+        "label": "Consistent Zombie Villager",
 
         "description": "Recolors zombie villager skin to be consistent with zombie",
 
