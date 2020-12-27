@@ -794,9 +794,9 @@
     },
     {
 
-        "id": "piglinZoglinColorFix",
+        "id": "consistentPiglinZoglin",
 
-        "label": "Zombified Piglin & Zoglin Color Fix",
+        "label": "Consistent Zombified Piglin & Zoglin",
 
         "description": "Recolors zombified Piglin & zoglin to macth non-undead counterparts",
 
