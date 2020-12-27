@@ -704,11 +704,53 @@
     },
     {
 
+        "id": "chainLanternColorFix",
+
+        "label": "Chain & Lantern Color Fix",
+
+        "description": "Changes chain, lantern and soul lantern textures to be consistent with other iron items",
+
+        "category": "fixes",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false,
+
+        "merges": [{
+            "id": "lanternSideFix",
+            "mergeWith": "chainLanternColorFix-AND-lanternSideFix"
+        }]
+    },
+    {
+
+        "id": "lanternSideFix",
+
+        "label": "Lantern Side Fix",
+
+        "description": "Changes the side of lantern textures to be consistent with soul lanterns",
+
+        "category": "fixes",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false,
+
+        "merges": [{
+            "id": "chainLanternColorFix",
+            "mergeWith": "chainLanternColorFix-AND-lanternSideFix"
+        }]
+    },
+    {
+
         "id": "jappaCompass",
 
         "label": "Jappa Compass",
 
-        "description": "Compass texture update as it was unchanged in 1.14",
+        "description": "Changed compass texture as it was unchanged in 1.14",
 
         "category": "fixes",
         
@@ -724,7 +766,23 @@
 
         "label": "Jappa Clock",
 
-        "description": "Clock texture update as it was unchanged in 1.14",
+        "description": "Changed clock texture as it was unchanged in 1.14",
+
+        "category": "fixes",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
+        "id": "jappaBlaze",
+
+        "label": "Jappa Blaze",
+
+        "description": "Changed blaze texture as it was unchanged in 1.14",
 
         "category": "fixes",
         
@@ -842,6 +900,10 @@
     },
     {
         "id": "blockstateIndicatingActivation-AND-smoothStoneLever",
+        "hidden": true
+    },
+    {
+        "id": "chainLanternColorFix-AND-lanternSideFix",
         "hidden": true
     },
     {
