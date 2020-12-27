@@ -266,6 +266,22 @@
     },
     {
 
+        "id": "growingNetherWart",
+
+        "label": "Growing Nether Wart",
+
+        "description": "Adds age 1 & 2 nether wart textures",
+
+        "category": "aesthetic",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
         "id": "cleanRedstoneDust",
 
         "label": "Clean Redstone Dust",
