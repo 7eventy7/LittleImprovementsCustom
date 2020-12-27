@@ -330,7 +330,7 @@
 
         "description": "Changes redstone dust texture to a clean line",
 
-        "category": "utility",
+        "category": "redstone",
         
         "iconType": "png",
 
@@ -351,7 +351,7 @@
 
         "description": "Adds signal strength indicators to redstone dust",
 
-        "category": "utility",
+        "category": "redstone",
         
         "iconType": "png",
 
@@ -372,7 +372,7 @@
 
         "description": "Redstone torch without the nasty border",
 
-        "category": "utility",
+        "category": "redstone",
         
         "iconType": "png",
 
@@ -381,19 +381,19 @@
         "lang": false,
 
         "merges": [{
-            "id": "improvedRepeaterComparator",
-            "mergeWith": "improvedRepeaterComparator-AND-cleanRedstoneTorch"
+            "id": "blockstateIndicatingRepeaterComparator",
+            "mergeWith": "blockstateIndicatingRepeaterComparator-AND-cleanRedstoneTorch"
         }]
     },
     {
 
-        "id": "improvedRepeaterComparator",
+        "id": "blockstateIndicatingRepeaterComparator",
 
-        "label": "Improved Repeater & Comparator",
+        "label": "Blockstate Indicating Repeater & Comparator",
 
         "description": "Side, bottom and top blockstate indicators",
 
-        "category": "utility",
+        "category": "redstone",
         
         "iconType": "png",
 
@@ -403,18 +403,34 @@
 
         "merges": [{
             "id": "cleanRedstoneTorch",
-            "mergeWith": "improvedRepeaterComparator-AND-cleanRedstoneTorch"
+            "mergeWith": "blockstateIndicatingRepeaterComparator-AND-cleanRedstoneTorch"
         }]
     },
     {
 
-        "id": "improvedDropperDispenser",
+        "id": "mossyStickyPistons",
 
-        "label": "Improved Dropper & Dispenser",
+        "label": "Mossy Sticky Pistons",
 
-        "description": "Side, bottom and top facing indicators",
+        "description": "Adds moss to the cobble sides of sticky pistons",
 
-        "category": "utility",
+        "category": "redstone",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
+        "id": "smoothDropperDispenser",
+
+        "label": "Smooth Dropper & Dispenser",
+
+        "description": "Changes positioning of smooth stone on droppers & dispensers",
+
+        "category": "redstone",
         
         "iconType": "png",
 
@@ -423,8 +439,29 @@
         "lang": false,
 
         "merges": [{
-            "id": "animatedFurnaces",
-            "mergeWith": "improvedDropperDispenser-AND-animatedFurnaces"
+            "id": "blockstateIndicatingDropperDispenser",
+            "mergeWith": "blockstateIndicatingDropperDispenser-AND-smoothDropperDispenser"
+        }]
+    },
+    {
+
+        "id": "blockstateIndicatingDropperDispenser",
+
+        "label": "Blockstate Indicating Dropper & Dispenser",
+
+        "description": "Cyan and kahki colored all side indicators",
+
+        "category": "redstone",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false,
+
+        "merges": [{
+            "id": "smoothDropperDispenser",
+            "mergeWith": "blockstateIndicatingDropperDispenser-AND-smoothDropperDispenser"
         }]
     },
     {
@@ -435,7 +472,7 @@
 
         "description": "Revamps all things lever",
 
-        "category": "utility",
+        "category": "redstone",
         
         "iconType": "png",
 
@@ -444,19 +481,19 @@
         "lang": false,
 
         "merges": [{
-            "id": "visuallyPoweredActivation",
-            "mergeWith": "visuallyPoweredActivation-AND-smoothStoneLever"
+            "id": "blockstateIndicatingActivation",
+            "mergeWith": "blockstateIndicatingActivation-AND-smoothStoneLever"
         }]
     },
     {
 
-        "id": "visuallyPoweredActivation",
+        "id": "blockstateIndicatingActivation",
 
-        "label": "Visually Powered Activation",
+        "label": "Blockstate Indicating Activation",
 
-        "description": "Blockstate indicating levers, pressure plates & buttons",
+        "description": "Visually powered levers, pressure plates & buttons",
 
-        "category": "utility",
+        "category": "redstone",
         
         "iconType": "png",
 
@@ -466,7 +503,7 @@
 
         "merges": [{
             "id": "smoothStoneLever",
-            "mergeWith": "visuallyPoweredActivation-AND-smoothStoneLever"
+            "mergeWith": "blockstateIndicatingActivation-AND-smoothStoneLever"
         }]
     },
     {
@@ -563,12 +600,7 @@
 
         "hidden": false,
 
-        "lang": false,
-
-        "merges": [{
-            "id": "improvedDropperDispenser",
-            "mergeWith": "improvedDropperDispenser-AND-animatedFurnaces"
-        }]
+        "lang": false
     },
     {
 
@@ -704,6 +736,22 @@
     },
     {
 
+        "id": "piglinZoglinColorFix",
+
+        "label": "Zombified Piglin & Zoglin Color Fix",
+
+        "description": "Recolors zombified Piglin & zoglin to macth non-undead counterparts",
+
+        "category": "fixes",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
         "id": "melonPumpkinFix",
 
         "label": "Melon & Pumpkin Fix",
@@ -785,15 +833,15 @@
         "hidden": true
     },
     {
-        "id": "improvedRepeaterComparator-AND-cleanRedstoneTorch",
+        "id": "blockstateIndicatingDropperDispenser-AND-smoothDropperDispenser",
         "hidden": true
     },
     {
-        "id": "visuallyPoweredActivation-AND-smoothStoneLever",
+        "id": "blockstateIndicatingRepeaterComparator-AND-cleanRedstoneTorch",
         "hidden": true
     },
     {
-        "id": "improvedDropperDispenser-AND-animatedFurnaces",
+        "id": "blockstateIndicatingActivation-AND-smoothStoneLever",
         "hidden": true
     },
     {

@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/orientable",
-  "textures": {
-    "top": "minecraft:block/dropper_top",
-    "front": "minecraft:block/dispenser_front",
-    "side": "minecraft:block/dropper_side"
-  }
-}
