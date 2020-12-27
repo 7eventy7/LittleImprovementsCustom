@@ -308,6 +308,22 @@
     },
     {
 
+        "id": "lilyPadFlowers",
+
+        "label": "Lily Pad Flowers",
+
+        "description": "Added flowers to half of all lily pads",
+
+        "category": "aesthetic",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
         "id": "growingNetherWart",
 
         "label": "Growing Nether Wart",
@@ -661,6 +677,22 @@
         "label": "Crossbow Color Fix",
 
         "description": "Recolors crossbow to appear like the sticks used to make it",
+
+        "category": "fixes",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
+        "id": "centeredLilyPadFix",
+
+        "label": "Centered Lily Pad Fix",
+
+        "description": "Centers the lily pad texture properly in its hitbox",
 
         "category": "fixes",
         
