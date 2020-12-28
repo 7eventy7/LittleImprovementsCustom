@@ -177,29 +177,11 @@
     },
     {
 
-        "id": "redderCrimson",
+        "id": "crimsonCrimson",
 
-        "label": "Redder Crimson",
+        "label": "Crimson Crimson",
 
-        "description": "Adjusts the coloration of crimson related textures red",
-
-        "category": "aesthetic",
-        
-        "iconType": "png",
-
-        "hidden": false,
-
-        "lang": false,
-
-        "incompatibilities": ["variousDoorFixes"]
-    },
-    {
-
-        "id": "greenerJungle",
-
-        "label": "Greener Jungle",
-
-        "description": "Adjusts the coloration of jungle related textures green",
+        "description": "Recolors crimson related textures to properly reflect the name",
 
         "category": "aesthetic",
         
@@ -851,7 +833,7 @@
 
         "lang": false,
 
-        "incompatibilities": ["whiterBirch", "darkerDarkOak", "redderCrimson", "greenerJungle"]
+        "incompatibilities": ["whiterBirch", "darkerDarkOak", "crimsonCrimson"]
     },   
     {
 
