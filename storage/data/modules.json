@@ -951,9 +951,9 @@
     },
     {
 
-        "id": "consistentBoneColorsFix",
+        "id": "consistentBoneColorFix",
 
-        "label": "Consistent Bone Colors Fix",
+        "label": "Consistent Bone Color Fix",
 
         "description": "Recolors bonemeal & bone blocks to match bones",
 
