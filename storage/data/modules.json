@@ -141,9 +141,9 @@
     },
     {
 
-        "id": "whiterBirch",
+        "id": "brightenedBirch",
 
-        "label": "Whiter Birch",
+        "label": "Brightened Birch",
 
         "description": "Adjusts the vibrance of birch related textures",
 
@@ -159,9 +159,9 @@
     },
     {
 
-        "id": "darkerDarkOak",
+        "id": "darkenedDarkOak",
 
-        "label": "Darker Dark Oak",
+        "label": "Darkened Dark Oak",
 
         "description": "Adjusts the exposure of dark oak related textures",
 
@@ -177,11 +177,11 @@
     },
     {
 
-        "id": "crimsonCrimson",
+        "id": "maroonCrimson",
 
-        "label": "Crimson Crimson",
+        "label": "Maroon Crimson",
 
-        "description": "Recolors crimson related textures to properly reflect the name",
+        "description": "Recolors crimson related textures to a darker maroon",
 
         "category": "aesthetic",
         
@@ -366,7 +366,7 @@
 
         "lang": false,
 
-        "incompatibilities": ["whiterBirch", "darkerDarkOak"],
+        "incompatibilities": ["brightenedBirch", "darkenedDarkOak"],
 
         "merges": [{
             "id": "ashlessCampfires",
@@ -389,7 +389,7 @@
 
         "lang": false,
 
-        "incompatibilities": ["whiterBirch", "darkerDarkOak"]
+        "incompatibilities": ["brightenedBirch", "darkenedDarkOak"]
     },
     {
 
@@ -833,7 +833,7 @@
 
         "lang": false,
 
-        "incompatibilities": ["whiterBirch", "darkerDarkOak", "crimsonCrimson"]
+        "incompatibilities": ["brightenedBirch", "darkenedDarkOak", "maroonCrimson"]
     },   
     {
 
@@ -1076,7 +1076,7 @@
 
         "lang": false,
 
-        "incompatibilities": ["whiterBirch", "darkerDarkOak"],
+        "incompatibilities": ["brightenedBirch", "darkenedDarkOak"],
 
         "merges": [{
                 "id": "smithingTableWoodFix",
@@ -1104,8 +1104,8 @@
             "mergeWith": "smithingTableWoodFix-AND-consistentWorkstationsFix"
         },
         {
-            "id": "darkerDarkOak",
-            "mergeWith": "smithingTableWoodFix-AND-darkerDarkOak"
+            "id": "darkenedDarkOak",
+            "mergeWith": "smithingTableWoodFix-AND-darkenedDarkOak"
     }]
     },
     {
@@ -1219,7 +1219,7 @@
         "hidden": true
     },
     {
-        "id": "smithingTableWoodFix-AND-darkerDarkOak",
+        "id": "smithingTableWoodFix-AND-darkenedDarkOak",
         "hidden": true
     },
     {
