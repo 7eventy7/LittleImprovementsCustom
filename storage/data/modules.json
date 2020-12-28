@@ -22,6 +22,38 @@
     },
     {
 
+        "id": "cleanBedrock",
+
+        "label": "Clean Bedrock",
+
+        "description": "Retextured bedrock to be darker & less grainy",
+
+        "category": "aesthetic",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
+        "id": "connectedPrismarineBricks",
+
+        "label": "Connected Prismarine Bricks",
+
+        "description": "Retextures prismarine bricks to tile horizontally",
+
+        "category": "aesthetic",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
         "id": "whiterBirch",
 
         "label": "Whiter Birch",
@@ -353,6 +385,8 @@
         "hidden": false,
 
         "lang": false,
+
+        "incompatibilities": ["redstoneDustPixelFix"],
 
         "merges": [{
             "id": "signalStrengthDisplay",
@@ -832,11 +866,43 @@
     },
     {
 
+        "id": "consistentMelonSlicesFix",
+
+        "label": "Consistent Melon Slices Fix",
+
+        "description": "Mirrors the glistering melon slice texture to match melon slice",
+
+        "category": "fixes",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
+        "id": "consistentBoneColorsFix",
+
+        "label": "Consistent Bone Colors Fix",
+
+        "description": "Recolors bonemeal & bone blocks to match bones",
+
+        "category": "fixes",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
         "id": "chainLanternColorFix",
 
         "label": "Chain & Lantern Color Fix",
 
-        "description": "Recolors chain, lantern and soul lantern textures to be consistent with other iron",
+        "description": "Recolors chain, lantern and soul lantern textures to match other iron",
 
         "category": "fixes",
         
@@ -874,6 +940,24 @@
     },
     {
 
+        "id": "redstoneDustPixelFix",
+
+        "label": "Redstone Dust Pixel Fix",
+
+        "description": "Adds missing pixels to the redstone dust block texture",
+
+        "category": "fixes",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false,
+
+        "incompatibilities": ["cleanRedstoneDust"]
+    },
+    {
+
         "id": "jappaCompass",
 
         "label": "Jappa Compass",
@@ -895,6 +979,22 @@
         "label": "Jappa Clock",
 
         "description": "Changed clock texture as it was unchanged in 1.14",
+
+        "category": "fixes",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
+        "id": "infestedStoneItemFix",
+
+        "label": "Infested Stone Item Fix",
+
+        "description": "Retextured infested stone items darker with a warning border",
 
         "category": "fixes",
         
