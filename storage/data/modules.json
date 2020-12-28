@@ -54,6 +54,93 @@
     },
     {
 
+        "id": "saturatedGold",
+
+        "label": "Saturated Gold",
+
+        "description": "Increases the saturation of most everything every gold related",
+
+        "category": "aesthetic",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false,
+
+        "incompatibilities": ["uniqueOres", "outlinedOres"],
+
+        "merges": [{
+            "id": "jappaClock",
+            "mergeWith": "saturatedGold-AND-jappaClock"
+        }]
+    },
+    {
+
+        "id": "ironOreColor",
+
+        "label": "Iron Ore Color",
+
+        "description": "Changes iron ore color to match iron ingots",
+
+        "category": "aesthetic",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false,
+
+        "incompatibilities": ["uniqueOres", "outlinedOres"]
+    },
+    {
+
+        "id": "uniqueOres",
+
+        "label": "Unique Ores",
+
+        "description": "Retextures many ore so each is different",
+
+        "category": "aesthetic",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false,
+
+        "incompatibilities": ["ironOreColor", "saturatedGold"],
+
+        "merges": [{
+            "id": "outlinedOres",
+            "mergeWith": "outlinedOres-AND-uniqueOres"
+        }]
+    },
+    {
+
+        "id": "outlinedOres",
+
+        "label": "Outlined Ores",
+
+        "description": "Adds a respectively colored border to each ore texture",
+
+        "category": "aesthetic",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false,
+
+        "incompatibilities": ["ironOreColor", "saturatedGold"],
+
+        "merges": [{
+            "id": "uniqueOres",
+            "mergeWith": "outlinedOres-AND-uniqueOres"
+        }]
+    },
+    {
+
         "id": "whiterBirch",
 
         "label": "Whiter Birch",
@@ -968,7 +1055,12 @@
 
         "hidden": false,
 
-        "lang": false
+        "lang": false,
+
+        "merges": [{
+            "id": "jappaClock",
+            "mergeWith": "saturatedGold-AND-jappaClock"
+        }]
     },
     {
 
@@ -1106,6 +1198,14 @@
     },
     {
         "id": "smoothWool-AND-outlinedWool",
+        "hidden": true
+    },
+    {
+        "id": "outlinedOres-AND-uniqueOres",
+        "hidden": true
+    },
+    {
+        "id": "saturatedGold-AND-jappaClock",
         "hidden": true
     },
     {
