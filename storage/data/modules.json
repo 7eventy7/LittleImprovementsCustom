@@ -524,6 +524,102 @@
     },
     {
 
+        "id": "jappaBlaze",
+
+        "label": "Jappa Blaze",
+
+        "description": "Recolors blaze texture to be softer and less harsh",
+
+        "category": "entity",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
+        "id": "jappaCreeper",
+
+        "label": "Jappa Creeper",
+
+        "description": "Retextures creeper to be smooth and less noisy",
+
+        "category": "entity",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
+        "id": "jappaWitch",
+
+        "label": "Jappa Witch",
+
+        "description": "Retextures witch robes and various other fixes",
+
+        "category": "entity",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
+        "id": "jappaZombie",
+
+        "label": "Jappa Zombie",
+
+        "description": "Retextures zombie clothing and various other fixes",
+
+        "category": "entity",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
+        "id": "consistentZombieVillager",
+
+        "label": "Consistent Zombie Villager",
+
+        "description": "Recolors zombie villager skin to be consistent with zombie",
+
+        "category": "entity",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
+        "id": "consistentPiglinZoglin",
+
+        "label": "Consistent Zombified Piglin & Zoglin",
+
+        "description": "Recolors zombified Piglin & zoglin to macth non-undead counterparts",
+
+        "category": "entity",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
         "id": "cleanVignette",
 
         "label": "Clean Vignette",
@@ -799,70 +895,6 @@
         "label": "Jappa Clock",
 
         "description": "Changed clock texture as it was unchanged in 1.14",
-
-        "category": "fixes",
-        
-        "iconType": "png",
-
-        "hidden": false,
-
-        "lang": false
-    },
-    {
-
-        "id": "jappaBlaze",
-
-        "label": "Jappa Blaze",
-
-        "description": "Recolors blaze texture to be softer and less harsh",
-
-        "category": "fixes",
-        
-        "iconType": "png",
-
-        "hidden": false,
-
-        "lang": false
-    },
-    {
-
-        "id": "jappaZombie",
-
-        "label": "Jappa Zombie",
-
-        "description": "Retextures zombie clothing and several other fixes",
-
-        "category": "fixes",
-        
-        "iconType": "png",
-
-        "hidden": false,
-
-        "lang": false
-    },
-    {
-
-        "id": "consistentZombieVillager",
-
-        "label": "Consistent Zombie Villager",
-
-        "description": "Recolors zombie villager skin to be consistent with zombie",
-
-        "category": "fixes",
-        
-        "iconType": "png",
-
-        "hidden": false,
-
-        "lang": false
-    },
-    {
-
-        "id": "consistentPiglinZoglin",
-
-        "label": "Consistent Zombified Piglin & Zoglin",
-
-        "description": "Recolors zombified Piglin & zoglin to macth non-undead counterparts",
 
         "category": "fixes",
         
