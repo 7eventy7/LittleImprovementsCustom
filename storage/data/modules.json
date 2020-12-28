@@ -68,7 +68,7 @@
 
         "lang": false,
 
-        "incompatibilities": ["variousDoorFixesImprovedWoods", "variousDoorFixes", "uniqueCampfires", "uniqueTorches"]
+        "incompatibilities": ["variousDoorFixes", "uniqueCampfires", "uniqueTorches", "consistentWorkstationsFix"]
     },
     {
 
@@ -86,7 +86,7 @@
 
         "lang": false,
 
-        "incompatibilities": ["variousDoorFixesImprovedWoods", "variousDoorFixes", "uniqueCampfires", "uniqueTorches"]
+        "incompatibilities": ["variousDoorFixes", "uniqueCampfires", "uniqueTorches", "consistentWorkstationsFix"]
     },
     {
 
@@ -104,7 +104,7 @@
 
         "lang": false,
 
-        "incompatibilities": ["variousDoorFixesImprovedWoods", "variousDoorFixes"]
+        "incompatibilities": ["variousDoorFixes"]
     },
     {
 
@@ -122,7 +122,7 @@
 
         "lang": false,
 
-        "incompatibilities": ["variousDoorFixesImprovedWoods", "variousDoorFixes"]
+        "incompatibilities": ["variousDoorFixes"]
     },
     {
 
@@ -738,7 +738,7 @@
 
         "label": "Animated Furnaces",
 
-        "description": "Top, side and front animations for all 3 furnace types",
+        "description": "All-side rextexture of blast furnace, furnace and smoker",
 
         "category": "animated",
         
@@ -764,26 +764,8 @@
 
         "lang": false,
 
-        "incompatibilities": ["variousDoorFixesImprovedWoods", "whiterBirch", "darkerDarkOak", "redderCrimson", "greenerJungle"]
-    },
-    {
-
-        "id": "variousDoorFixesImprovedWoods",
-
-        "label": "Various Door Fixed Improved Woods",
-
-        "description": "Various Door Fixes with 4 wood type recolors",
-
-        "category": "fixes",
-        
-        "iconType": "png",
-
-        "hidden": false,
-
-        "lang": false,
-
-        "incompatibilities": ["variousDoorFixes", "whiterBirch", "darkerDarkOak", "redderCrimson", "greenerJungle"]
-    },    
+        "incompatibilities": ["whiterBirch", "darkerDarkOak", "redderCrimson", "greenerJungle"]
+    },   
     {
 
         "id": "itemFrameFix",
@@ -1006,6 +988,54 @@
     },
     {
 
+        "id": "consistentWorkstationsFix",
+
+        "label": "Consistent Workstations Fix",
+
+        "description": "Adds bottom textures to workstations & various other fixes",
+
+        "category": "fixes",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false,
+
+        "incompatibilities": ["whiterBirch", "darkerDarkOak"],
+
+        "merges": [{
+                "id": "smithingTableWoodFix",
+                "mergeWith": "smithingTableWoodFix-AND-consistentWorkstationsFix"
+        }]
+    },
+    {
+
+        "id": "smithingTableWoodFix",
+
+        "label": "Smithing Table Wood Fix",
+
+        "description": "Retextures the wood on smithing tables to dark oak",
+
+        "category": "fixes",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false,
+
+        "merges": [{
+            "id": "consistentWorkstationsFix",
+            "mergeWith": "smithingTableWoodFix-AND-consistentWorkstationsFix"
+        },
+        {
+            "id": "darkerDarkOak",
+            "mergeWith": "smithingTableWoodFix-AND-darkerDarkOak"
+    }]
+    },
+    {
+
         "id": "melonPumpkinFix",
 
         "label": "Melon & Pumpkin Fix",
@@ -1100,6 +1130,14 @@
     },
     {
         "id": "chainLanternColorFix-AND-lanternSideFix",
+        "hidden": true
+    },
+    {
+        "id": "smithingTableWoodFix-AND-consistentWorkstationsFix",
+        "hidden": true
+    },
+    {
+        "id": "smithingTableWoodFix-AND-darkerDarkOak",
         "hidden": true
     },
     {
