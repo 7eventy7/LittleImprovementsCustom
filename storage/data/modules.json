@@ -668,22 +668,6 @@
     },
     {
 
-        "id": "jappaRepeaterComparatorItem",
-
-        "label": "Jappa Repeater Comparator Item",
-
-        "description": "Retextures repeater & comparator items as they were not updated in 1.14",
-
-        "category": "redstone",
-        
-        "iconType": "png",
-
-        "hidden": false,
-
-        "lang": false
-    },
-    {
-
         "id": "smoothDropperDispenser",
 
         "label": "Smooth Dropper & Dispenser",
@@ -1278,6 +1262,22 @@
         "description": "Recolors crossbow to appear like the sticks used to make it",
 
         "category": "fixes",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
+        "id": "repeaterComparatorItemFix",
+
+        "label": "Repeater Comparator Item Fix",
+
+        "description": "Retextures repeater & comparator items to appear more like their block counterparts",
+
+        "category": "redstone",
         
         "iconType": "png",
 
