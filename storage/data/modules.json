@@ -1716,7 +1716,7 @@
 
         "hidden": false,
 
-        "lang": false
+        "lang": true
     },
     {
         "id": "naturalGlazedTerracotta-AND-terracottaCreeperFix",

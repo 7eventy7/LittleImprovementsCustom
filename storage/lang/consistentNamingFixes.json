@@ -1,0 +1,57 @@
+{
+	"en_au.json": {
+		"item.minecraft.cooked_beef": "Cooked Beef",
+		"block.minecraft.coal_block": "Coal Block",
+		"block.minecraft.iron_block": "Iron Block",
+		"block.minecraft.gold_block": "Gold Block",
+		"block.minecraft.redstone_block": "Redstone Block",
+		"block.minecraft.lapis_block": "Lapis Lazuli Block",
+		"block.minecraft.emerald_block": "Emerald Block",
+		"block.minecraft.diamond_block": "Diamond Block",
+		"block.minecraft.netherite_block": "Netherite Block"
+	},
+	"en_ca.json": {
+		"item.minecraft.cooked_beef": "Cooked Beef",
+		"block.minecraft.coal_block": "Coal Block",
+		"block.minecraft.iron_block": "Iron Block",
+		"block.minecraft.gold_block": "Gold Block",
+		"block.minecraft.redstone_block": "Redstone Block",
+		"block.minecraft.lapis_block": "Lapis Lazuli Block",
+		"block.minecraft.emerald_block": "Emerald Block",
+		"block.minecraft.diamond_block": "Diamond Block",
+		"block.minecraft.netherite_block": "Netherite Block"
+	},
+	"en_gb.json": {
+		"item.minecraft.cooked_beef": "Cooked Beef",
+		"block.minecraft.coal_block": "Coal Block",
+		"block.minecraft.iron_block": "Iron Block",
+		"block.minecraft.gold_block": "Gold Block",
+		"block.minecraft.redstone_block": "Redstone Block",
+		"block.minecraft.lapis_block": "Lapis Lazuli Block",
+		"block.minecraft.emerald_block": "Emerald Block",
+		"block.minecraft.diamond_block": "Diamond Block",
+		"block.minecraft.netherite_block": "Netherite Block"
+	},
+	"en_nz.json": {
+		"item.minecraft.cooked_beef": "Cooked Beef",
+		"block.minecraft.coal_block": "Coal Block",
+		"block.minecraft.iron_block": "Iron Block",
+		"block.minecraft.gold_block": "Gold Block",
+		"block.minecraft.redstone_block": "Redstone Block",
+		"block.minecraft.lapis_block": "Lapis Lazuli Block",
+		"block.minecraft.emerald_block": "Emerald Block",
+		"block.minecraft.diamond_block": "Diamond Block",
+		"block.minecraft.netherite_block": "Netherite Block"
+	},
+	"en_us.json": {
+	"item.minecraft.cooked_beef": "Cooked Beef",
+	"block.minecraft.coal_block": "Coal Block",
+	"block.minecraft.iron_block": "Iron Block",
+	"block.minecraft.gold_block": "Gold Block",
+	"block.minecraft.redstone_block": "Redstone Block",
+	"block.minecraft.lapis_block": "Lapis Lazuli Block",
+	"block.minecraft.emerald_block": "Emerald Block",
+	"block.minecraft.diamond_block": "Diamond Block",
+	"block.minecraft.netherite_block": "Netherite Block"
+}
+}
