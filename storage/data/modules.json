@@ -1,6 +1,22 @@
 [
     {
 
+        "id": "darkenedBlackstone",
+
+        "label": "Darkened Blackstone",
+
+        "description": "Recolors blackstone to be less vibrant & appear grayscale",
+
+        "category": "aesthetic",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
         "id": "longSides",
 
         "label": "Long Sides",
@@ -22,11 +38,27 @@
     },
     {
 
+        "id": "smoothDiorite",
+
+        "label": "Smooth Diorite",
+
+        "description": "Retextured diorite to appear less staticky",
+
+        "category": "aesthetic",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
         "id": "cleanBedrock",
 
         "label": "Clean Bedrock",
 
-        "description": "Retextured bedrock to be darker & less grainy",
+        "description": "Retextured bedrock to appear darker & less grainy",
 
         "category": "aesthetic",
         
@@ -43,6 +75,22 @@
         "label": "Connected Prismarine Bricks",
 
         "description": "Retextures prismarine bricks to tile horizontally",
+
+        "category": "aesthetic",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
+        "id": "visibleDoubleSlabs",
+
+        "label": "Visible Double Slabs",
+
+        "description": "Retextures various doubleslabs to appear seperated",
 
         "category": "aesthetic",
         
@@ -71,9 +119,13 @@
         "incompatibilities": ["uniqueOres", "outlinedOres"],
 
         "merges": [{
-            "id": "jappaClock",
-            "mergeWith": "saturatedGold-AND-jappaClock"
-        }]
+                "id": "jappaClock",
+                "mergeWith": "saturatedGold-AND-jappaClock"
+            },
+            {
+                "id": "shortSwords",
+                "mergeWith": "saturatedGold-AND-jappaClock"
+            }]
     },
     {
 
@@ -365,6 +417,29 @@
     },
     {
 
+        "id": "shortSwords",
+
+        "label": "Short Swords",
+
+        "description": "Retextures swords to be shorter & smaller in first-person",
+
+        "category": "aesthetic",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false,
+
+        "incompatibilities": ["jappaClock"],
+
+        "merges": [{
+            "id": "saturatedGold",
+            "mergeWith": "shortSwords-AND-saturatedGold"
+        }]
+    },
+    {
+
         "id": "ashlessCampfires",
 
         "label": "Ashless Campfires",
@@ -424,6 +499,22 @@
         "lang": false,
 
         "incompatibilities": ["brightenedBirch", "darkenedDarkOak"]
+    },
+    {
+
+        "id": "uniqueMushrooms",
+
+        "label": "Unique Mushrooms",
+
+        "description": "Retextured red & brown mushrooms to appear different from each other",
+
+        "category": "aesthetic",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
     },
     {
 
@@ -574,6 +665,22 @@
             "id": "cleanRedstoneTorch",
             "mergeWith": "blockstateIndicatingRepeaterComparator-AND-cleanRedstoneTorch"
         }]
+    },
+    {
+
+        "id": "jappaRepeaterComparatorItem",
+
+        "label": "Jappa Repeater Comparator Item",
+
+        "description": "Retextures repeater & comparator items as they were not updated in 1.14",
+
+        "category": "redstone",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
     },
     {
 
@@ -1244,6 +1351,38 @@
     },
     {
 
+        "id": "chickenEggColorFix",
+
+        "label": "Chicken Egg Color Fix",
+
+        "description": "Recolors chicken eggs brown to match real life",
+
+        "category": "fixes",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
+        "id": "consistentBucketFixes",
+
+        "label": "Consistent Bucket Fixes",
+
+        "description": "Retextures buckets with liquid so the same amount is pouring out",
+
+        "category": "fixes",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
         "id": "mapItemColorFix",
 
         "label": "Map Item Color Fix",
@@ -1281,6 +1420,38 @@
         "label": "Blaze Item Fix",
 
         "description": "Recolors blaze rods & powder to match blaze",
+
+        "category": "fixes",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
+        "id": "spectralArrowColorFix",
+
+        "label": "Spectral Arrow Color Fix",
+
+        "description": "Recolors spectral arrow entities gold to match their item counterpart",
+
+        "category": "fixes",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
+        "id": "centeredMusicDiscsFix",
+
+        "label": "Centered Music Discs Fix",
+
+        "description": "Retextures music discs to be centered",
 
         "category": "fixes",
         
@@ -1381,6 +1552,8 @@
         "hidden": false,
 
         "lang": false,
+
+        "incompatibilities": ["shortSwords"],
 
         "merges": [{
             "id": "jappaClock",
@@ -1551,6 +1724,10 @@
     },
     {
         "id": "properlyGlazedTerracotta-AND-terracottaCreeperFix",
+        "hidden": true
+    },
+    {
+        "id": "shortSwords-AND-saturatedGold",
         "hidden": true
     },
     {

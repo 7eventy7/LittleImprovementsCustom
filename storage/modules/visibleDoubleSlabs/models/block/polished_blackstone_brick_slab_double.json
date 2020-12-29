@@ -1,0 +1,8 @@
+{
+	"credit": "Made by 7eventy7",
+	"parent": "block/end_stone_brick_slab_double",
+	"textures": {
+		"particle": "block/polished_blackstone_bricks",
+		"texture": "block/polished_blackstone_bricks"
+	}
+}
