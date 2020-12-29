@@ -831,6 +831,22 @@
     },
     {
 
+        "id": "diminishedRainSnow",
+
+        "label": "Diminished Rain & Snow",
+
+        "description": "Retextures rain & snow to be much less obtrusive",
+
+        "category": "gui",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
         "id": "cleanVignette",
 
         "label": "Clean Vignette",
@@ -879,27 +895,11 @@
     },
     {
 
-        "id": "diminishedRainSnow",
+        "id": "jappaHotbar",
 
-        "label": "Diminished Rain & Snow",
+        "label": "Jappa Hotbar",
 
-        "description": "Retextures rain & snow to be much less obtrusive",
-
-        "category": "gui",
-        
-        "iconType": "png",
-
-        "hidden": false,
-
-        "lang": false
-    },
-    {
-
-        "id": "resizedUtilities",
-
-        "label": "Resized Utilities",
-
-        "description": "Downsizes first-person item sizes for common foods, fireworks and potions",
+        "description": "Overhauls hotbar which was not updated in 1.14",
 
         "category": "gui",
         
@@ -927,11 +927,11 @@
     },
     {
 
-        "id": "jappaHotbar",
+        "id": "resizedUtilities",
 
-        "label": "Jappa Hotbar",
+        "label": "Resized Utilities",
 
-        "description": "Overhauls hotbar which was not updated in 1.14",
+        "description": "Downsizes first-person item sizes for common foods, fireworks and potions",
 
         "category": "gui",
         
