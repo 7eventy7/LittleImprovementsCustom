@@ -1,0 +1,8 @@
+{
+    "credit": "Made by 7eventy7",
+    "parent": "item/template_utility_item",
+    "textures": {
+        "layer0": "item/bread"
+    }
+}
+

@@ -141,6 +141,24 @@
     },
     {
 
+        "id": "verticalWoodPlanks",
+
+        "label": "Vertical Wood Planks",
+
+        "description": "Retextures wood planks & rotates them 90 degrees",
+
+        "category": "aesthetic",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false,
+
+        "incompatibilities": ["doorFixes", "boatItemFix", "signItemFix", "brightenedBirch", "darkenedDarkOak", "maroonCrimson"]
+    },
+    {
+
         "id": "brightenedBirch",
 
         "label": "Brightened Birch",
@@ -155,7 +173,7 @@
 
         "lang": false,
 
-        "incompatibilities": ["variousDoorFixes", "uniqueCampfires", "uniqueTorches", "consistentWorkstationsFix"]
+        "incompatibilities": ["doorFixes", "boatItemFix", "signItemFix", "verticalWoodPlanks", "uniqueCampfires", "uniqueTorches", "consistentWorkstationsFix"]
     },
     {
 
@@ -173,7 +191,7 @@
 
         "lang": false,
 
-        "incompatibilities": ["variousDoorFixes", "uniqueCampfires", "uniqueTorches", "consistentWorkstationsFix"]
+        "incompatibilities": ["doorFixes", "boatItemFix", "signItemFix", "verticalWoodPlanks", "uniqueCampfires", "uniqueTorches", "consistentWorkstationsFix"]
     },
     {
 
@@ -191,7 +209,7 @@
 
         "lang": false,
 
-        "incompatibilities": ["variousDoorFixes"]
+        "incompatibilities": ["doorFixes", "boatItemFix", "signItemFix", "verticalWoodPlanks"]
     },
     {
 
@@ -304,6 +322,22 @@
         "label": "Clean Stained Glass",
 
         "description": "Removes the border from all stained glass",
+
+        "category": "aesthetic",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
+        "id": "cleanMaps",
+
+        "label": "Clean Maps",
+
+        "description": "Cleans up the edge of map textures & adds some flair",
 
         "category": "aesthetic",
         
@@ -485,6 +519,22 @@
     },
     {
 
+        "id": "visibleTripwire",
+
+        "label": "Visible Tripwire",
+
+        "description": "Adds a visible activated & non-activated texture to tripwire",
+
+        "category": "redstone",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
         "id": "cleanRedstoneTorch",
 
         "label": "Clean Redstone Torch",
@@ -566,6 +616,64 @@
             "id": "smoothDropperDispenser",
             "mergeWith": "blockstateIndicatingDropperDispenser-AND-smoothDropperDispenser"
         }]
+    },
+    {
+
+        "id": "cleanComposter",
+
+        "label": "Clean Composter",
+
+        "description": "Removes the garbage peaking thru the side of the composter",
+
+        "category": "redstone",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false,
+
+        "merges": [{
+            "id": "blockstateIndicatingComposter",
+            "mergeWith": "blockstateIndicatingComposter-AND-cleanComposter"
+        }]
+    },
+    {
+
+        "id": "blockstateIndicatingComposter",
+
+        "label": "Blockstate Indicating Composter",
+
+        "description": "Blockstate indicators on all composter sides",
+
+        "category": "redstone",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false,
+
+        "merges": [{
+            "id": "cleanComposter",
+            "mergeWith": "blockstateIndicatingComposter-AND-cleanComposter"
+        }]
+    },
+    {
+
+        "id": "blockstateIndicatingCauldron",
+
+        "label": "Blockstate Indicating Cauldron",
+
+        "description": "Blockstate indicators on all cauldron sides",
+
+        "category": "redstone",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
     },
     {
 
@@ -739,6 +847,86 @@
     },
     {
 
+        "id": "diminishedCarvedPumpkinBlur",
+
+        "label": "Diminished Carved Pumpkin Blur",
+
+        "description": "Significantly reduces the opacity of the blur effect from carved pumpkins",
+
+        "category": "gui",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
+        "id": "diminishedRainSnow",
+
+        "label": "Diminished Rain & Snow",
+
+        "description": "Significantly reduces the opacity of the blur effect from carved pumpkins",
+
+        "category": "gui",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
+        "id": "jappaGui",
+
+        "label": "Jappa Gui",
+
+        "description": "Overhauls many icons that were not updated in 1.14",
+
+        "category": "gui",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
+        "id": "jappaHotbar",
+
+        "label": "Jappa Hotbar",
+
+        "description": "Overhauls hotbar which was not updated in 1.14",
+
+        "category": "gui",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
+        "id": "diminishedRainSnow",
+
+        "label": "Diminished Rain & Snow",
+
+        "description": "Significantly reduces the opacity of the blur effect from carved pumpkins",
+
+        "category": "gui",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
         "id": "smallBossbars",
 
         "label": "Small Bossbars",
@@ -760,6 +948,22 @@
         "label": "Armor Slot Outlines",
 
         "description": "Changes armor slot outlines to resemble actual armor",
+
+        "category": "gui",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
+        "id": "resizedUtilities",
+
+        "label": "Resized Utilities",
+
+        "description": "Downsizes first-person item sizes for common foods, fireworks and potions",
 
         "category": "gui",
         
@@ -819,11 +1023,82 @@
     },
     {
 
-        "id": "variousDoorFixes",
+        "id": "cleanEnchantingGlint",
 
-        "label": "Various Door Fixes",
+        "label": "Clean Enchanting Glint",
 
-        "description": "Trapdoor handles, door items, and side textures",
+        "description": "Overhaul of the enchantment glint texture & behavior",
+
+        "category": "animated",
+        
+        "iconType": "gif",
+
+        "hidden": false,
+
+        "lang": false,
+
+        "merges": [{
+            "id": "whiteEnchantingGlint",
+            "mergeWith": "cleanEnchantingGlint-AND-whiteEnchantingGlint"
+        },
+        {
+            "id": "maroonEnchantingGlint",
+            "mergeWith": "cleanEnchantingGlint-AND-maroonEnchantingGlint"
+        }]
+    },
+    {
+
+        "id": "whiteEnchantingGlint",
+
+        "label": "White Enchanting Glint",
+
+        "description": "Recolors the enchanment glint to a plain white",
+
+        "category": "animated",
+        
+        "iconType": "gif",
+
+        "hidden": false,
+
+        "lang": false,
+
+        "incompatibilities": ["maroonEnchantingGlint"],
+
+        "merges": [{
+            "id": "cleanEnchantingGlint",
+            "mergeWith": "cleanEnchantingGlint-AND-whiteEnchantingGlint"
+        }]
+    },
+    {
+
+        "id": "maroonEnchantingGlint",
+
+        "label": "Maroon Enchanting Glint",
+
+        "description": "Recolors the enchanment glint to a more vibrant maroon",
+
+        "category": "animated",
+        
+        "iconType": "gif",
+
+        "hidden": false,
+
+        "lang": false,
+
+        "incompatibilities": ["whiteEnchantingGlint"],
+
+        "merges": [{
+            "id": "cleanEnchantingGlint",
+            "mergeWith": "cleanEnchantingGlint-AND-maroonEnchantingGlint"
+        }]
+    },
+    {
+
+        "id": "doorFixes",
+
+        "label": "Door Fixes",
+
+        "description": "Retextures trapdoor, door items, and door side textures",
 
         "category": "fixes",
         
@@ -833,8 +1108,44 @@
 
         "lang": false,
 
-        "incompatibilities": ["brightenedBirch", "darkenedDarkOak", "maroonCrimson"]
-    },   
+        "incompatibilities": ["brightenedBirch", "darkenedDarkOak", "maroonCrimson", "verticalWoodPlanks"]
+    },
+    {
+
+        "id": "boatItemFix",
+
+        "label": "Boat Item Fix",
+
+        "description": "Recolors boat ores & slightly changes textures",
+
+        "category": "fixes",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false,
+
+        "incompatibilities": ["brightenedBirch", "darkenedDarkOak", "maroonCrimson", "verticalWoodPlanks"]
+    },
+    {
+
+        "id": "signItemFix",
+
+        "label": "Sign Item Fix",
+
+        "description": "Retextures sign items to match their block counterparts",
+
+        "category": "fixes",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false,
+
+        "incompatibilities": ["brightenedBirch", "darkenedDarkOak", "maroonCrimson", "verticalWoodPlanks"]
+    },
     {
 
         "id": "itemFrameFix",
@@ -933,11 +1244,43 @@
     },
     {
 
+        "id": "mapItemColorFix",
+
+        "label": "Map Item Color Fix",
+
+        "description": "Recolors map items to match their handheld counterparts",
+
+        "category": "fixes",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
         "id": "consistentBoneColorFix",
 
         "label": "Consistent Bone Color Fix",
 
         "description": "Recolors bonemeal & bone blocks to match bones",
+
+        "category": "fixes",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
+        "id": "blazeItemFix",
+
+        "label": "Blaze Item Fix",
+
+        "description": "Recolors blaze rods & powder to match blaze",
 
         "category": "fixes",
         
@@ -1046,6 +1389,22 @@
     },
     {
 
+        "id": "daylightDetectorBottomFix",
+
+        "label": "Daylight Detector Bottom Fix",
+
+        "description": "Adds a unique texture to the bottom of inverted daylight sensors",
+
+        "category": "fixes",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
         "id": "infestedStoneItemFix",
 
         "label": "Infested Stone Item Fix",
@@ -1106,7 +1465,7 @@
         {
             "id": "darkenedDarkOak",
             "mergeWith": "smithingTableWoodFix-AND-darkenedDarkOak"
-    }]
+        }]
     },
     {
 
@@ -1171,11 +1530,35 @@
             }]
     },
     {
+
+        "id": "consistentNamingFixes",
+
+        "label": "Consistent Naming Fixes",
+
+        "description": "Implements 1.17 naming including 'Block of' and 'Cooked' prefixes",
+
+        "category": "fixes",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
         "id": "naturalGlazedTerracotta-AND-terracottaCreeperFix",
         "hidden": true
     },
     {
         "id": "properlyGlazedTerracotta-AND-terracottaCreeperFix",
+        "hidden": true
+    },
+    {
+        "id": "cleanEnchantingGlint-AND-whiteEnchantingGlint",
+        "hidden": true
+    },
+    {
+        "id": "cleanEnchantingGlint-AND-maroonEnchantingGlint",
         "hidden": true
     },
     {
@@ -1200,6 +1583,10 @@
     },
     {
         "id": "blockstateIndicatingDropperDispenser-AND-smoothDropperDispenser",
+        "hidden": true
+    },
+    {
+        "id": "blockstateIndicatingComposter-AND-cleanComposter",
         "hidden": true
     },
     {

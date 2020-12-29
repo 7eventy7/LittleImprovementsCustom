@@ -1,0 +1,9 @@
+{
+    "credit": "Made by 7eventy7",
+    "parent": "item/template_utility_item",
+    "textures": {
+        "layer0": "item/potion_overlay",
+        "layer1": "item/splash_potion"
+    }
+}
+
