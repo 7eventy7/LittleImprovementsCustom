@@ -831,6 +831,22 @@
     },
     {
 
+        "id": "smoothMinecraftFont",
+
+        "label": "Smooth Minecraft Font",
+
+        "description": "Smoothens out the default font with a few personal touches",
+
+        "category": "gui",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
         "id": "cleanVignette",
 
         "label": "Clean Vignette",
