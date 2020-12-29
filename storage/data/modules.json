@@ -883,7 +883,7 @@
 
         "label": "Diminished Rain & Snow",
 
-        "description": "Significantly reduces the opacity of the blur effect from carved pumpkins",
+        "description": "Retextures rain & snow to be much less obtrusive",
 
         "category": "gui",
         
@@ -916,22 +916,6 @@
         "label": "Jappa Hotbar",
 
         "description": "Overhauls hotbar which was not updated in 1.14",
-
-        "category": "gui",
-        
-        "iconType": "png",
-
-        "hidden": false,
-
-        "lang": false
-    },
-    {
-
-        "id": "diminishedRainSnow",
-
-        "label": "Diminished Rain & Snow",
-
-        "description": "Significantly reduces the opacity of the blur effect from carved pumpkins",
 
         "category": "gui",
         
