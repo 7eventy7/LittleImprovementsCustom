@@ -831,22 +831,6 @@
     },
     {
 
-        "id": "smoothMinecraftFont",
-
-        "label": "Smooth Minecraft Font",
-
-        "description": "Smoothens out the default font with a few personal touches",
-
-        "category": "gui",
-        
-        "iconType": "png",
-
-        "hidden": false,
-
-        "lang": false
-    },
-    {
-
         "id": "cleanVignette",
 
         "label": "Clean Vignette",
@@ -879,11 +863,43 @@
     },
     {
 
+        "id": "smallBossbars",
+
+        "label": "Small Bossbars",
+
+        "description": "Reduces the size of bossbars",
+
+        "category": "gui",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
         "id": "diminishedRainSnow",
 
         "label": "Diminished Rain & Snow",
 
         "description": "Retextures rain & snow to be much less obtrusive",
+
+        "category": "gui",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
+        "id": "resizedUtilities",
+
+        "label": "Resized Utilities",
+
+        "description": "Downsizes first-person item sizes for common foods, fireworks and potions",
 
         "category": "gui",
         
@@ -927,22 +943,6 @@
     },
     {
 
-        "id": "smallBossbars",
-
-        "label": "Small Bossbars",
-
-        "description": "Reduces the size of bossbars",
-
-        "category": "gui",
-        
-        "iconType": "png",
-
-        "hidden": false,
-
-        "lang": false
-    },
-    {
-
         "id": "armorSlotOutlines",
 
         "label": "Armor Slot Outlines",
@@ -959,11 +959,11 @@
     },
     {
 
-        "id": "resizedUtilities",
+        "id": "hdTitleScreenLogo",
 
-        "label": "Resized Utilities",
+        "label": "HD Title Screen Logo",
 
-        "description": "Downsizes first-person item sizes for common foods, fireworks and potions",
+        "description": "Increases the resolution of the title screen logo to HD",
 
         "category": "gui",
         
@@ -975,11 +975,11 @@
     },
     {
 
-        "id": "hdTitleScreenLogo",
+        "id": "smoothMinecraftFont",
 
-        "label": "HD Title Screen Logo",
+        "label": "Smooth Minecraft Font",
 
-        "description": "Increases the resolution of the title screen logo to HD",
+        "description": "Smoothens out the default font with a few personal touches",
 
         "category": "gui",
         
