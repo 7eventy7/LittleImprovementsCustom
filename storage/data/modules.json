@@ -833,7 +833,33 @@
 
         "hidden": false,
 
-        "lang": false
+        "lang": false,
+
+        "merges": [{
+            "id": "blockstateIndicatingPistons",
+            "mergeWith": "blockstateIndicatingPistons-AND-mossyStickyPistons"
+        }]
+    },
+    {
+
+        "id": "blockstateIndicatingPistons",
+
+        "label": "Blockstate Indicating Pistons",
+
+        "description": "Adds on & off blockstate indicators to every side",
+
+        "category": "redstone",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false,
+
+        "merges": [{
+            "id": "mossyStickyPistons",
+            "mergeWith": "blockstateIndicatingPistons-AND-mossyStickyPistons"
+        }]
     },
     {
 
@@ -1932,6 +1958,10 @@
     },
     {
         "id": "blockstateIndicatingObserver-AND-smoothObserver",
+        "hidden": true
+    },
+    {
+        "id": "blockstateIndicatingPistons-AND-mossyStickyPistons",
         "hidden": true
     },
     {
