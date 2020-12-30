@@ -1752,38 +1752,6 @@
     },
     {
 
-        "id": "daylightDetectorBottomFix",
-
-        "label": "Daylight Detector Bottom Fix",
-
-        "description": "Adds a unique texture to the bottom of inverted daylight sensors",
-
-        "category": "fixes",
-        
-        "iconType": "png",
-
-        "hidden": false,
-
-        "lang": false
-    },
-    {
-
-        "id": "infestedStoneItemFix",
-
-        "label": "Infested Stone Item Fix",
-
-        "description": "Retextured infested stone items darker with a warning border",
-
-        "category": "fixes",
-        
-        "iconType": "png",
-
-        "hidden": false,
-
-        "lang": false
-    },
-    {
-
         "id": "consistentWorkstationsFix",
 
         "label": "Consistent Workstations Fix",
@@ -1829,6 +1797,38 @@
             "id": "darkenedDarkOak",
             "mergeWith": "smithingTableWoodFix-AND-darkenedDarkOak"
         }]
+    },
+    {
+
+        "id": "daylightDetectorBottomFix",
+
+        "label": "Daylight Detector Bottom Fix",
+
+        "description": "Adds a unique texture to the bottom of inverted daylight sensors",
+
+        "category": "fixes",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
+        "id": "infestedStoneItemFix",
+
+        "label": "Infested Stone Item Fix",
+
+        "description": "Retextured infested stone items darker with a warning border",
+
+        "category": "fixes",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
     },
     {
 
