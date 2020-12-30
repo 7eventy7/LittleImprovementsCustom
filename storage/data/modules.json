@@ -70,11 +70,11 @@
     },
     {
 
-        "id": "connectedPrismarineBricks",
+        "id": "visibleDoubleSlabs",
 
-        "label": "Connected Prismarine Bricks",
+        "label": "Visible Double Slabs",
 
-        "description": "Retextures prismarine bricks to tile horizontally",
+        "description": "Retextures various doubleslabs to appear seperated",
 
         "category": "aesthetic",
         
@@ -86,11 +86,27 @@
     },
     {
 
-        "id": "visibleDoubleSlabs",
+        "id": "connectedPrismarineBricks",
 
-        "label": "Visible Double Slabs",
+        "label": "Connected Prismarine Bricks",
 
-        "description": "Retextures various doubleslabs to appear seperated",
+        "description": "Retextures prismarine bricks to tile better horizontally",
+
+        "category": "aesthetic",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
+        "id": "connectedNetherBricks",
+
+        "label": "Connected Nether Bricks",
+
+        "description": "Retextures nether bricks to tile better horizontally",
 
         "category": "aesthetic",
         
