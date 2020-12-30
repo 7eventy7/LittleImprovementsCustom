@@ -1724,7 +1724,7 @@
 
         "label": "Consistent Naming Fixes",
 
-        "description": "Implements 1.17 naming including 'Block of' and 'Cooked' prefixes",
+        "description": "Changes name scheme to '... block' suffix and 'Cooked ...' prefix like in 1.17",
 
         "category": "fixes",
         
