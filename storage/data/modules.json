@@ -922,6 +922,22 @@
     },
     {
 
+        "id": "cryingGhasts",
+
+        "label": "Crying Ghats",
+
+        "description": "Retextures ghats to have tears matching the color of ghast tears item",
+
+        "category": "entity",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
         "id": "diminishedRainSnow",
 
         "label": "Diminished Rain & Snow",
