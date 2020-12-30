@@ -139,6 +139,22 @@
     },
     {
 
+        "id": "violaceousPurpur",
+
+        "label": "Violaceous Purpur",
+
+        "description": "Recolors purpur blocks a lighter lavander",
+
+        "category": "aesthetic",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
         "id": "saturatedGold",
 
         "label": "Saturated Gold",
@@ -721,6 +737,22 @@
     },
     {
 
+        "id": "blockstateIndicatingHopper",
+
+        "label": "Blockstate Indicating Hopper",
+
+        "description": "Adds arrows to sideways facing hoppers & retextures the bottom",
+
+        "category": "redstone",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
         "id": "smoothDropperDispenser",
 
         "label": "Smooth Dropper & Dispenser",
@@ -746,7 +778,7 @@
 
         "label": "Blockstate Indicating Dropper & Dispenser",
 
-        "description": "Cyan and kahki colored all side indicators",
+        "description": "Adds cyan & kahki colored blockstate indicators to every side",
 
         "category": "redstone",
         
@@ -759,6 +791,48 @@
         "merges": [{
             "id": "smoothDropperDispenser",
             "mergeWith": "blockstateIndicatingDropperDispenser-AND-smoothDropperDispenser"
+        }]
+    },
+    {
+
+        "id": "smoothObserver",
+
+        "label": "Smooth Observer",
+
+        "description": "Retextures observers making the smooth stone front wrap around the side",
+
+        "category": "redstone",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false,
+
+        "merges": [{
+            "id": "blockstateIndicatingObserver",
+            "mergeWith": "blockstateIndicatingObserver-AND-smoothObserver"
+        }]
+    },
+    {
+
+        "id": "blockstateIndicatingObserver",
+
+        "label": "Blockstate Indicating Observer",
+
+        "description": "Adds on & off blockstate indicators to every side",
+
+        "category": "redstone",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false,
+
+        "merges": [{
+            "id": "smoothObserver",
+            "mergeWith": "blockstateIndicatingObserver-AND-smoothObserver"
         }]
     },
     {
@@ -1854,6 +1928,10 @@
     },
     {
         "id": "blockstateIndicatingDropperDispenser-AND-smoothDropperDispenser",
+        "hidden": true
+    },
+    {
+        "id": "blockstateIndicatingObserver-AND-smoothObserver",
         "hidden": true
     },
     {
