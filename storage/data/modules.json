@@ -90,7 +90,7 @@
 
         "label": "Static Prismarine",
 
-        "description": "Retextures prismarine to be non-animated",
+        "description": "Removes the animation from prismarine blocks",
 
         "category": "aesthetic",
         
