@@ -1,22 +1,6 @@
 [
     {
 
-        "id": "desaturatedBlackstone",
-
-        "label": "Desaturated Blackstone",
-
-        "description": "Recolors blackstone to be less vibrant & appear grayscale",
-
-        "category": "aesthetic",
-        
-        "iconType": "png",
-
-        "hidden": false,
-
-        "lang": false
-    },
-    {
-
         "id": "longSides",
 
         "label": "Long Sides",
@@ -38,11 +22,11 @@
     },
     {
 
-        "id": "smoothDiorite",
+        "id": "cleanBedrock",
 
-        "label": "Smooth Diorite",
+        "label": "Clean Bedrock",
 
-        "description": "Retextured diorite to appear less staticky",
+        "description": "Retextured bedrock to appear darker & less grainy",
 
         "category": "aesthetic",
         
@@ -54,11 +38,27 @@
     },
     {
 
-        "id": "cleanBedrock",
+        "id": "desaturatedBlackstone",
 
-        "label": "Clean Bedrock",
+        "label": "Desaturated Blackstone",
 
-        "description": "Retextured bedrock to appear darker & less grainy",
+        "description": "Recolors blackstone to be less vibrant & appear grayscale",
+
+        "category": "aesthetic",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
+        "id": "smoothDiorite",
+
+        "label": "Smooth Diorite",
+
+        "description": "Retextured diorite to appear less staticky",
 
         "category": "aesthetic",
         
@@ -86,11 +86,11 @@
     },
     {
 
-        "id": "staticPrismarine",
+        "id": "connectedNetherBricks",
 
-        "label": "Static Prismarine",
+        "label": "Connected Nether Bricks",
 
-        "description": "Removes the animation from prismarine blocks",
+        "description": "Retextures nether bricks to tile better horizontally",
 
         "category": "aesthetic",
         
@@ -123,11 +123,11 @@
     },
     {
 
-        "id": "connectedNetherBricks",
+        "id": "staticPrismarine",
 
-        "label": "Connected Nether Bricks",
+        "label": "Static Prismarine",
 
-        "description": "Retextures nether bricks to tile better horizontally",
+        "description": "Removes the animation from prismarine blocks",
 
         "category": "aesthetic",
         
