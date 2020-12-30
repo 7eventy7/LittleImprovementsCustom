@@ -129,9 +129,9 @@
     },
     {
 
-        "id": "ironOreColor",
+        "id": "consistentIronOre",
 
-        "label": "Iron Ore Color",
+        "label": "Consistent Iron Ore",
 
         "description": "Changes iron ore color to match iron ingots",
 
@@ -161,7 +161,7 @@
 
         "lang": false,
 
-        "incompatibilities": ["ironOreColor", "saturatedGold"],
+        "incompatibilities": ["consistentIronOre", "saturatedGold"],
 
         "merges": [{
             "id": "outlinedOres",
@@ -184,7 +184,7 @@
 
         "lang": false,
 
-        "incompatibilities": ["ironOreColor", "saturatedGold"],
+        "incompatibilities": ["consistentIronOre", "saturatedGold"],
 
         "merges": [{
             "id": "uniqueOres",
