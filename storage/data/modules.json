@@ -1435,22 +1435,6 @@
     },
     {
 
-        "id": "repeaterComparatorItemFix",
-
-        "label": "Repeater & Comparator Item Fix",
-
-        "description": "Retextures repeater & comparator items to appear more like their block counterparts",
-
-        "category": "fixes",
-        
-        "iconType": "png",
-
-        "hidden": false,
-
-        "lang": false
-    },
-    {
-
         "id": "centeredLilyPadFix",
 
         "label": "Centered Lily Pad Fix",
@@ -1723,6 +1707,22 @@
             "id": "jappaClock",
             "mergeWith": "saturatedGold-AND-jappaClock"
         }]
+    },
+    {
+
+        "id": "repeaterComparatorItemFix",
+
+        "label": "Repeater & Comparator Item Fix",
+
+        "description": "Retextures repeater & comparator items to appear more like their block counterparts",
+
+        "category": "fixes",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
     },
     {
 
