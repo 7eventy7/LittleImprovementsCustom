@@ -86,6 +86,22 @@
     },
     {
 
+        "id": "staticPrismarine",
+
+        "label": "Static Prismarine",
+
+        "description": "Retextures prismarine to be non-animated",
+
+        "category": "aesthetic",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
         "id": "connectedPrismarineBricks",
 
         "label": "Connected Prismarine Bricks",
@@ -98,7 +114,12 @@
 
         "hidden": false,
 
-        "lang": false
+        "lang": false,
+
+        "merges": [{
+            "id": "animatedPrismarineBricks",
+            "mergeWith": "animatedPrismarineBricks-AND-connectedPrismarineBricks"
+        }]
     },
     {
 
@@ -422,6 +443,22 @@
         "label": "Clean Scaffolding",
 
         "description": "Removes the net inside scaffolding",
+
+        "category": "aesthetic",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
+        "id": "netheriteElytra",
+
+        "label": "Netherite Elytra",
+
+        "description": "Retextures elytra to match netherite armor",
 
         "category": "aesthetic",
         
@@ -1130,11 +1167,32 @@
     },
     {
 
+        "id": "animatedPrismarineBricks",
+
+        "label": "Animated Prismarine Bricks",
+
+        "description": "Retextures prismarine bricks to change color in sync with prismarine",
+
+        "category": "animated",
+        
+        "iconType": "gif",
+
+        "hidden": false,
+
+        "lang": false,
+
+        "merges": [{
+            "id": "connectedPrismarineBricks",
+            "mergeWith": "animatedPrismarineBricks-AND-connectedPrismarineBricks"
+        }]
+    },
+    {
+
         "id": "animatedFurnaces",
 
         "label": "Animated Furnaces",
 
-        "description": "All-side rextexture of blast furnace, furnace and smoker",
+        "description": "All-side animated rextexture of blast furnace, furnace and smoker",
 
         "category": "animated",
         
@@ -1756,6 +1814,10 @@
     },
     {
         "id": "properlyGlazedTerracotta-AND-terracottaCreeperFix",
+        "hidden": true
+    },
+    {
+        "id": "animatedPrismarineBricks-AND-connectedPrismarineBricks",
         "hidden": true
     },
     {
