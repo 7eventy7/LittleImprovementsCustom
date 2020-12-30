@@ -679,22 +679,6 @@
     },
     {
 
-        "id": "visibleTripwire",
-
-        "label": "Visible Tripwire",
-
-        "description": "Adds a visible activated & non-activated texture to tripwire",
-
-        "category": "redstone",
-        
-        "iconType": "png",
-
-        "hidden": false,
-
-        "lang": false
-    },
-    {
-
         "id": "cleanRedstoneTorch",
 
         "label": "Clean Redstone Torch",
@@ -837,6 +821,22 @@
     },
     {
 
+        "id": "mossyStickyPistons",
+
+        "label": "Mossy Sticky Pistons",
+
+        "description": "Adds moss to the cobble sides of sticky pistons",
+
+        "category": "redstone",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
         "id": "cleanComposter",
 
         "label": "Clean Composter",
@@ -937,11 +937,11 @@
     },
     {
 
-        "id": "mossyStickyPistons",
+        "id": "visibleTripwire",
 
-        "label": "Mossy Sticky Pistons",
+        "label": "Visible Tripwire",
 
-        "description": "Adds moss to the cobble sides of sticky pistons",
+        "description": "Adds a visible activated & non-activated texture to tripwire",
 
         "category": "redstone",
         
