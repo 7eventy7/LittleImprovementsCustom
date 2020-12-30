@@ -603,11 +603,11 @@
     },
     {
 
-        "id": "lilyPadFlowers",
+        "id": "growingNetherWart",
 
-        "label": "Lily Pad Flowers",
+        "label": "Growing Nether Wart",
 
-        "description": "Added flowers to half of all lily pads",
+        "description": "Adds age 1 & 2 nether wart textures",
 
         "category": "aesthetic",
         
@@ -619,11 +619,11 @@
     },
     {
 
-        "id": "growingNetherWart",
+        "id": "lilyPadFlowers",
 
-        "label": "Growing Nether Wart",
+        "label": "Lily Pad Flowers",
 
-        "description": "Adds age 1 & 2 nether wart textures",
+        "description": "Added flowers to half of all lily pads",
 
         "category": "aesthetic",
         
