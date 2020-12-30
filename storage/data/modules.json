@@ -1671,6 +1671,22 @@
     },
     {
 
+        "id": "repeaterComparatorItemFix",
+
+        "label": "Repeater & Comparator Item Fix",
+
+        "description": "Retextures repeater & comparator items to appear more like their block counterparts",
+
+        "category": "fixes",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
         "id": "jappaCompass",
 
         "label": "Jappa Compass",
@@ -1707,22 +1723,6 @@
             "id": "jappaClock",
             "mergeWith": "saturatedGold-AND-jappaClock"
         }]
-    },
-    {
-
-        "id": "repeaterComparatorItemFix",
-
-        "label": "Repeater & Comparator Item Fix",
-
-        "description": "Retextures repeater & comparator items to appear more like their block counterparts",
-
-        "category": "fixes",
-        
-        "iconType": "png",
-
-        "hidden": false,
-
-        "lang": false
     },
     {
 
