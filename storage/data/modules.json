@@ -22,11 +22,11 @@
     },
     {
 
-        "id": "cleanBedrock",
+        "id": "desaturatedBlackstone",
 
-        "label": "Clean Bedrock",
+        "label": "Desaturated Blackstone",
 
-        "description": "Retextured bedrock to appear darker & less grainy",
+        "description": "Recolors blackstone to be less vibrant & appear grayscale",
 
         "category": "aesthetic",
         
@@ -38,11 +38,11 @@
     },
     {
 
-        "id": "desaturatedBlackstone",
+        "id": "cleanBedrock",
 
-        "label": "Desaturated Blackstone",
+        "label": "Clean Bedrock",
 
-        "description": "Recolors blackstone to be less vibrant & appear grayscale",
+        "description": "Retextured bedrock to appear darker & less grainy",
 
         "category": "aesthetic",
         
