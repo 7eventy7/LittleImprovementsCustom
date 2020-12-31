@@ -86,6 +86,38 @@
     },
     {
 
+        "id": "porousNetherrack",
+
+        "label": "Porous Netherrack",
+
+        "description": "Retextures netherrack to appear less like cobblestone",
+
+        "category": "aesthetic",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
+        "id": "magmaOverlay",
+
+        "label": "Magma Overlay",
+
+        "description": "Retextures magma blocks using the cracks as an overlay on top of netherrack",
+
+        "category": "aesthetic",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
         "id": "connectedNetherBricks",
 
         "label": "Connected Nether Bricks",
@@ -318,6 +350,54 @@
     },
     {
 
+        "id": "centeredKelpBlock",
+
+        "label": "Centered Kelp Block",
+
+        "description": "Retextures kelp blocks so the baling string is centered",
+
+        "category": "aesthetic",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
+        "id": "greenerMelon",
+
+        "label": "Greener Melon",
+
+        "description": "Recolors yellow lines on melon blocks",
+
+        "category": "aesthetic",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
+        "id": "creeperFacedPumpkins",
+
+        "label": "Creeper Faced Pumpkins",
+
+        "description": "Retextures carved pumpkins & jack-o'-lanterns faces to a creeper theme",
+
+        "category": "aesthetic",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
         "id": "naturalGlazedTerracotta",
 
         "label": "Natural Glazed Terracotta",
@@ -506,6 +586,22 @@
             "id": "saturatedGold",
             "mergeWith": "shortSwords-AND-saturatedGold"
         }]
+    },
+    {
+
+        "id": "chocolateCake",
+
+        "label": "Chocolate Cake",
+
+        "description": "Retextures cake to a delicious chocolate delicacy!",
+
+        "category": "aesthetic",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
     },
     {
 
@@ -718,6 +814,22 @@
             "id": "cleanRedstoneTorch",
             "mergeWith": "blockstateIndicatingRepeaterComparator-AND-cleanRedstoneTorch"
         }]
+    },
+    {
+
+        "id": "uniqueNoteBlock",
+
+        "label": "Unique Note Block",
+
+        "description": "Retextures note blocks to appear different than jukebox sides",
+
+        "category": "redstone",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
     },
     {
 
@@ -1063,7 +1175,23 @@
 
         "label": "Consistent Zombified Piglin & Zoglin",
 
-        "description": "Recolors zombified Piglin & zoglin to macth non-undead counterparts",
+        "description": "Recolors zombified piglin & zoglin to match non-undead counterparts",
+
+        "category": "entity",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
+        "id": "consistentMooshroom",
+
+        "label": "Consistent Mooshroom",
+
+        "description": "Retextures red & brown mooshroom cow eyes to match normal cows",
 
         "category": "entity",
         
@@ -1621,6 +1749,22 @@
     },
     {
 
+        "id": "tippedArrowheadFix",
+
+        "label": "Tipped Arrowhead Fix",
+
+        "description": "Removes the effect colored stray pixels around the arrowhead",
+
+        "category": "fixes",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
         "id": "centeredMusicDiscsFix",
 
         "label": "Centered Music Discs Fix",
@@ -1702,6 +1846,22 @@
         "label": "Repeater & Comparator Item Fix",
 
         "description": "Retextures repeater & comparator items to appear more like their block counterparts",
+
+        "category": "fixes",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
+        "id": "furnaceMinecartItemOutlineFix",
+
+        "label": "Furnace Minecart Item Outline Fix",
+
+        "description": "Recolors the furnace minecart item outline from brown to gray",
 
         "category": "fixes",
         
@@ -1821,22 +1981,6 @@
         "label": "Infested Stone Item Fix",
 
         "description": "Retextured infested stone items darker with a warning border",
-
-        "category": "fixes",
-        
-        "iconType": "png",
-
-        "hidden": false,
-
-        "lang": false
-    },
-    {
-
-        "id": "melonPumpkinFix",
-
-        "label": "Melon & Pumpkin Fix",
-
-        "description": "Bottom textures, greener melon & seed color",
 
         "category": "fixes",
         
