@@ -1,26 +1,37 @@
-Little Improvments: Custom
-Credits:
+✒ Liscense: https://creativecommons.org/licenses/by-sa/4.0/deed.en | https://creativecommons.org/licenses/by-sa/4.0/legalcode
+===================================================================================================================================
+SELF-SERVE DEVELOPMENT TEAM: 
 
-Beatso
-Website and pack development
-https://www.beatso.tk/
+[PACKS]
+✦ 7eventy7                    🔗 https://www.planetminecraft.com/member/7eventy/
 
-Daggsy
-Pack development
-https://www.planetminecraft.com/member/daggsy/
+[WEBSITE]
+✦ Beatso                      🔗 https://www.beatso.tk/+=
+✦ Banakin                     🔗 https://twitter.com/Banakin9
+✦ captainCamel                🔗 https://github.com/captain-camel
 
-Kemiu
-Pack development
-https://www.planetminecraft.com/member/kemiu/
+====================================================================================================================================
+SELF-SERVE ASSET CONTRIBUTORS:
 
-Banakin
-Helping with some technical stuff for the website
-https://banakin.github.io/
+✏ Jasper Boerstra            🔗 https://twitter.com/jasperboerstra?lang=en                    ➤ Jappa Clock | Jappa Compass
+✏ Vanilla Tweaks             🔗 https://twitter.com/jasperboerstra?lang=en                    ➤ Blockstate Indicating Hopper | Kelp Flowers
+✏ Daggsy                     🔗 https://www.planetminecraft.com/member/daggsy/                ➤ Smooth Dropper & Dispenser
+✏ Chubins                    🔗 https://www.planetminecraft.com/member/chubins_-ve/           ➤ Nylium Top Fix
+✏ StormDragon77              🔗 https://www.planetminecraft.com/member/stormdragon77/         ➤ `All Door Packs`
+✏ Kemiu                      🔗 https://www.planetminecraft.com/member/kemiu/                 ➤ Warted
 
-Vanilla Tweaks
-Some resources are by Stridey
-https://vanillatweaks.net/
+===================================================================================================================================
+♦ Self-Serve is a fork of an original project named 'Little Improvements: Custom'
 
-Fjorde
-Some Variated Ores and Purple End Eyes textures
-https://www.planetminecraft.com/member/fjorde/
+♢Make sure to check it out!
+https://www.littleimprovements-custom.tk/ | https://github.com/LittleImprovementsCustom/LittleImprovementsCustom
+
+
+
+
+
+
+
+
+
+
