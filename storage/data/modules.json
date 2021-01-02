@@ -201,16 +201,12 @@
 
         "lang": false,
 
-        "incompatibilities": ["uniqueOres", "outlinedOres"],
+        "incompatibilities": ["uniqueOres", "outlinedOres", "shortSwords"],
 
         "merges": [{
                 "id": "jappaClock",
                 "mergeWith": "saturatedGold-AND-jappaClock"
-            },
-            {
-                "id": "shortSwords",
-                "mergeWith": "saturatedGold-AND-jappaClock"
-            }]
+        }]
     },
     {
 
@@ -603,11 +599,34 @@
 
         "lang": false,
 
-        "incompatibilities": ["jappaClock"],
+        "incompatibilities": ["saturatedGold"],
 
         "merges": [{
-            "id": "saturatedGold",
-            "mergeWith": "shortSwords-AND-saturatedGold"
+            "id": "darkSticks",
+            "mergeWith": "darkSticks-AND-shortSwords"
+        }]
+    },
+    {
+
+        "id": "darkSticks",
+
+        "label": "Dark Sticks",
+
+        "description": "Recolors all sticks in bows, tools & weapons to be darker",
+
+        "category": "aesthetic",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false,
+
+        "incompatibilities": ["crossbowColorFix"],
+
+        "merges": [{
+            "id": "darkSticks",
+            "mergeWith": "darkSticks-AND-shortSwords"
         }]
     },
     {
@@ -1901,7 +1920,9 @@
 
         "hidden": false,
 
-        "lang": false
+        "lang": false,
+
+        "incompatibilities": ["darkSticks"]
     },
     {
 
@@ -2257,8 +2278,6 @@
 
         "lang": false,
 
-        "incompatibilities": ["shortSwords"],
-
         "merges": [{
             "id": "jappaClock",
             "mergeWith": "saturatedGold-AND-jappaClock"
@@ -2419,7 +2438,7 @@
         "hidden": true
     },
     {
-        "id": "shortSwords-AND-saturatedGold",
+        "id": "darkSticks-AND-shortSwords",
         "hidden": true
     },
     {
