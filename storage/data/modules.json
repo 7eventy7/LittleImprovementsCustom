@@ -296,24 +296,6 @@
     },
     {
 
-        "id": "brightenedBirch",
-
-        "label": "Brightened Birch",
-
-        "description": "Adjusts the vibrance of birch related textures",
-
-        "category": "aesthetic",
-        
-        "iconType": "png",
-
-        "hidden": false,
-
-        "lang": false,
-
-        "incompatibilities": ["3dBoats", "3dDoors", "3dTrapdoors", "trapdoorHandlesHinges", "doorSideFixes", "doorItemFixes", "boatItemFix", "signItemFix", "verticalWoodPlanks", "uniqueCampfires", "uniqueTorches", "consistentWorkstationsFix"]
-    },
-    {
-
         "id": "darkenedDarkOak",
 
         "label": "Darkened Dark Oak",
@@ -347,6 +329,24 @@
         "lang": false,
 
         "incompatibilities": ["3dBoats", "3dDoors", "3dTrapdoors", "trapdoorHandlesHinges", "doorSideFixes", "doorItemFixes", "boatItemFix", "signItemFix", "verticalWoodPlanks"]
+    },
+    {
+
+        "id": "brightenedBirch",
+
+        "label": "Brightened Birch",
+
+        "description": "Adjusts the vibrance of birch related textures",
+
+        "category": "aesthetic",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false,
+
+        "incompatibilities": ["3dBoats", "3dDoors", "3dTrapdoors", "trapdoorHandlesHinges", "doorSideFixes", "doorItemFixes", "boatItemFix", "signItemFix", "verticalWoodPlanks", "uniqueCampfires", "uniqueTorches", "consistentWorkstationsFix"]
     },
     {
 
@@ -1132,9 +1132,9 @@
 
         "id": "3dDoors",
 
-        "label": "3D Trapdoors",
+        "label": "3D Doors",
 
-        "description": "Adds 3D models to all trapdoor blocks & items",
+        "description": "Adds 3D models to all door blocks & items",
 
         "category": "3d",
         
@@ -1837,29 +1837,11 @@
     },
     {
 
-        "id": "doorSideFixes",
+        "id": "itemFrameFix",
 
-        "label": "Door Side Fixes",
+        "label": "Item Frame Fix",
 
-        "description": "Retextures handles & hinges of many doors & adds side textures to all",
-
-        "category": "fixes",
-        
-        "iconType": "png",
-
-        "hidden": false,
-
-        "lang": false,
-
-        "incompatibilities": ["brightenedBirch", "darkenedDarkOak", "maroonCrimson", "3dDoors"]
-    },
-    {
-
-        "id": "doorItemFixes",
-
-        "label": "Door Item Fixes",
-
-        "description": "Retextures item textures for all doors to be consistent with their block counterpart",
+        "description": "Square item frames with no item icon in the center",
 
         "category": "fixes",
         
@@ -1867,27 +1849,7 @@
 
         "hidden": false,
 
-        "lang": false,
-
-        "incompatibilities": ["brightenedBirch", "darkenedDarkOak", "maroonCrimson", "3dDoors"]
-    },
-    {
-
-        "id": "boatItemFix",
-
-        "label": "Boat Item Fix",
-
-        "description": "Recolors boat ores & slightly changes textures",
-
-        "category": "fixes",
-        
-        "iconType": "png",
-
-        "hidden": false,
-
-        "lang": false,
-
-        "incompatibilities": ["brightenedBirch", "darkenedDarkOak", "maroonCrimson", "3dBoats"]
+        "lang": false
     },
     {
 
@@ -1909,11 +1871,11 @@
     },
     {
 
-        "id": "itemFrameFix",
+        "id": "boatItemFix",
 
-        "label": "Item Frame Fix",
+        "label": "Boat Item Fix",
 
-        "description": "Square item frames with no item icon in the center",
+        "description": "Recolors boat ores & slightly changes textures",
 
         "category": "fixes",
         
@@ -1921,7 +1883,9 @@
 
         "hidden": false,
 
-        "lang": false
+        "lang": false,
+
+        "incompatibilities": ["brightenedBirch", "darkenedDarkOak", "maroonCrimson", "3dBoats"]
     },
     {
 
@@ -1941,11 +1905,47 @@
     },
     {
 
-        "id": "centeredLilyPadFix",
+        "id": "doorItemFixes",
 
-        "label": "Centered Lily Pad Fix",
+        "label": "Door Item Fixes",
 
-        "description": "Centers the lily pad texture properly in its hitbox",
+        "description": "Retextures item textures for all doors to be consistent with their block counterpart",
+
+        "category": "fixes",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false,
+
+        "incompatibilities": ["brightenedBirch", "darkenedDarkOak", "maroonCrimson", "3dDoors"]
+    },
+    {
+
+        "id": "doorSideFixes",
+
+        "label": "Door Side Fixes",
+
+        "description": "Retextures handles & hinges of many doors & adds side textures to all",
+
+        "category": "fixes",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false,
+
+        "incompatibilities": ["brightenedBirch", "darkenedDarkOak", "maroonCrimson", "3dDoors"]
+    },
+    {
+
+        "id": "chickenEggColorFix",
+
+        "label": "Chicken Egg Color Fix",
+
+        "description": "Recolors chicken eggs brown to match real life",
 
         "category": "fixes",
         
@@ -2005,11 +2005,11 @@
     },
     {
 
-        "id": "chickenEggColorFix",
+        "id": "centeredLilyPadFix",
 
-        "label": "Chicken Egg Color Fix",
+        "label": "Centered Lily Pad Fix",
 
-        "description": "Recolors chicken eggs brown to match real life",
+        "description": "Centers the lily pad texture properly in its hitbox",
 
         "category": "fixes",
         
