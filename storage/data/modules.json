@@ -292,7 +292,7 @@
 
         "lang": false,
 
-        "incompatibilities": ["doorFixes", "boatItemFix", "signItemFix", "brightenedBirch", "darkenedDarkOak", "maroonCrimson"]
+        "incompatibilities": ["brightenedBirch", "darkenedDarkOak", "maroonCrimson"]
     },
     {
 
@@ -310,7 +310,7 @@
 
         "lang": false,
 
-        "incompatibilities": ["doorFixes", "boatItemFix", "signItemFix", "verticalWoodPlanks", "uniqueCampfires", "uniqueTorches", "consistentWorkstationsFix"]
+        "incompatibilities": ["3dBoats", "3dDoors", "3dTrapdoors", "trapdoorHandlesHinges", "doorSideFixes", "doorItemFixes", "boatItemFix", "signItemFix", "verticalWoodPlanks", "uniqueCampfires", "uniqueTorches", "consistentWorkstationsFix"]
     },
     {
 
@@ -328,7 +328,7 @@
 
         "lang": false,
 
-        "incompatibilities": ["doorFixes", "boatItemFix", "signItemFix", "verticalWoodPlanks", "uniqueCampfires", "uniqueTorches", "consistentWorkstationsFix"]
+        "incompatibilities": ["3dBoats", "3dDoors", "3dTrapdoors", "trapdoorHandlesHinges", "doorSideFixes", "doorItemFixes", "boatItemFix", "signItemFix", "verticalWoodPlanks", "uniqueCampfires", "uniqueTorches", "consistentWorkstationsFix"]
     },
     {
 
@@ -346,7 +346,30 @@
 
         "lang": false,
 
-        "incompatibilities": ["doorFixes", "boatItemFix", "signItemFix", "verticalWoodPlanks"]
+        "incompatibilities": ["3dBoats", "3dDoors", "3dTrapdoors", "trapdoorHandlesHinges", "doorSideFixes", "doorItemFixes", "boatItemFix", "signItemFix", "verticalWoodPlanks"]
+    },
+    {
+
+        "id": "trapdoorHandlesHinges",
+
+        "label": "Trapdoor Handles & Hinges",
+
+        "description": "Retextures all trapdoors to have proper handles & hinges",
+
+        "category": "aesthetic",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false,
+
+        "incompatibilities": ["brightenedBirch", "darkenedDarkOak", "maroonCrimson"],
+
+        "merges": [{
+            "id": "3dTrapdoors",
+            "mergeWith": "3dTrapdoors-AND-trapdoorHandlesHinges"
+        }]
     },
     {
 
@@ -719,7 +742,23 @@
 
         "label": "Lily Pad Flowers",
 
-        "description": "Added flowers to half of all lily pads",
+        "description": "Adds flowers to half of all lily pads",
+
+        "category": "aesthetic",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
+        "id": "kelpFlowers",
+
+        "label": "Kelp Flowers",
+
+        "description": "Adds flowers to age 25 kelp blocks",
 
         "category": "aesthetic",
         
@@ -1091,11 +1130,301 @@
     },
     {
 
+        "id": "3dDoors",
+
+        "label": "3D Trapdoors",
+
+        "description": "Adds 3D models to all trapdoor blocks & items",
+
+        "category": "3d",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false,
+
+        "incompatibilities": ["brightenedBirch", "darkenedDarkOak", "maroonCrimson", "doorSideFixes", "doorItemFixes"]
+    },
+    {
+
+        "id": "3dTrapdoors",
+
+        "label": "3D Trapdoors",
+
+        "description": "Adds 3D models to all trapdoor blocks & items",
+
+        "category": "3d",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false,
+
+        "incompatibilities": ["brightenedBirch", "darkenedDarkOak", "maroonCrimson"],
+
+        "merges": [{
+            "id": "trapdoorHandlesHinges",
+            "mergeWith": "3dTrapdoors-AND-trapdoorHandlesHinges"
+        }]
+    },
+    {
+
+        "id": "3dMinecarts",
+
+        "label": "3D Minecarts",
+
+        "description": "Adds 3D models to all minecart items",
+
+        "category": "3d",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false,
+
+        "incompatibilities": ["furnaceMinecartItemOutlineFix"],
+
+        "merges": [{
+            "id": "animatedFurnaces",
+            "mergeWith": "3dMinecarts-AND-animatedFurnaces"
+        }]
+    },
+    {
+
+        "id": "3dBoats",
+
+        "label": "3D Boats",
+
+        "description": "Adds 3D models to all boat items",
+
+        "category": "3d",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false,
+
+        "incompatibilities": ["brightenedBirch", "darkenedDarkOak", "maroonCrimson", "boatItemFix"]
+    },
+    {
+
+        "id": "3dLadder",
+
+        "label": "3D Ladder",
+
+        "description": "Adds a 3D model to the ladder block & item",
+
+        "category": "3d",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
+        "id": "3dBell",
+
+        "label": "3D Boats",
+
+        "description": "Adds a 3D model to the bell item",
+
+        "category": "3d",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
+        "id": "3dEndRod",
+
+        "label": "3D End Rod",
+
+        "description": "Adds a 3D model to the end rod item",
+
+        "category": "3d",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
+        "id": "3dLanterns",
+
+        "label": "3D Lanterns",
+
+        "description": "Adds a 3D model to lantern & soul lantern items",
+
+        "category": "3d",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
+        "id": "3dTorches",
+
+        "label": "3D Torches",
+
+        "description": "Adds a 3D model to torch, soul torch, & redstone torch items",
+
+        "category": "3d",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
+        "id": "3dRepeaterComparator",
+
+        "label": "3D Repeater & Comparator",
+
+        "description": "Adds a 3D model to repeater & comparator items",
+
+        "category": "3d",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
+        "id": "3dLever",
+
+        "label": "3D Lever",
+
+        "description": "Adds a 3D model to the lever item",
+
+        "category": "3d",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
+        "id": "3dTripwireHook",
+
+        "label": "3D Tripwire Hook",
+
+        "description": "Adds a 3D model to the tripwire hook item",
+
+        "category": "3d",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
+        "id": "3dFlowerPot",
+
+        "label": "3D Flower Pot",
+
+        "description": "Adds a 3D model to the flower pot item",
+
+        "category": "3d",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
+        "id": "3dTurtleEgg",
+
+        "label": "3D Turtle Egg",
+
+        "description": "Adds a 3D model to the turtle egg item",
+
+        "category": "3d",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
+        "id": "3dCauldron",
+
+        "label": "3D Cauldron",
+
+        "description": "Adds a 3D model to the cauldron item",
+
+        "category": "3d",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
+        "id": "3dHopper",
+
+        "label": "3D Hopper",
+
+        "description": "Adds a 3D model to the hopper item",
+
+        "category": "3d",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
+        "id": "3dCake",
+
+        "label": "3D Cake",
+
+        "description": "Adds a 3D model to the cake item",
+
+        "category": "3d",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false
+    },
+    {
+
         "id": "jappaBlaze",
 
         "label": "Jappa Blaze",
 
-        "description": "Recolors blaze texture to be softer and less harsh",
+        "description": "Recolors blaze texture to be softer & less harsh",
 
         "category": "entity",
         
@@ -1111,7 +1440,7 @@
 
         "label": "Jappa Creeper",
 
-        "description": "Retextures creeper to be smooth and less noisy",
+        "description": "Retextures creeper to be smooth & less noisy",
 
         "category": "entity",
         
@@ -1127,7 +1456,7 @@
 
         "label": "Jappa Witch",
 
-        "description": "Retextures witch robes and various other fixes",
+        "description": "Retextures witch robes & various other fixes",
 
         "category": "entity",
         
@@ -1143,7 +1472,7 @@
 
         "label": "Jappa Zombie",
 
-        "description": "Retextures zombie clothing and various other fixes",
+        "description": "Retextures zombie clothing & various other fixes",
 
         "category": "entity",
         
@@ -1428,7 +1757,12 @@
 
         "hidden": false,
 
-        "lang": false
+        "lang": false,
+
+        "merges": [{
+            "id": "3dMinecarts",
+            "mergeWith": "3dMinecarts-AND-animatedFurnaces"
+        }]
     },
     {
 
@@ -1503,11 +1837,11 @@
     },
     {
 
-        "id": "doorFixes",
+        "id": "doorSideFixes",
 
-        "label": "Door Fixes",
+        "label": "Door Side Fixes",
 
-        "description": "Retextures trapdoor, door items, and door side textures",
+        "description": "Retextures handles & hinges of many doors & adds side textures to all",
 
         "category": "fixes",
         
@@ -1517,7 +1851,25 @@
 
         "lang": false,
 
-        "incompatibilities": ["brightenedBirch", "darkenedDarkOak", "maroonCrimson", "verticalWoodPlanks"]
+        "incompatibilities": ["brightenedBirch", "darkenedDarkOak", "maroonCrimson", "3dDoors"]
+    },
+    {
+
+        "id": "doorItemFixes",
+
+        "label": "Door Item Fixes",
+
+        "description": "Retextures item textures for all doors to be consistent with their block counterpart",
+
+        "category": "fixes",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false,
+
+        "incompatibilities": ["brightenedBirch", "darkenedDarkOak", "maroonCrimson", "3dDoors"]
     },
     {
 
@@ -1535,7 +1887,7 @@
 
         "lang": false,
 
-        "incompatibilities": ["brightenedBirch", "darkenedDarkOak", "maroonCrimson", "verticalWoodPlanks"]
+        "incompatibilities": ["brightenedBirch", "darkenedDarkOak", "maroonCrimson", "3dBoats"]
     },
     {
 
@@ -1553,7 +1905,7 @@
 
         "lang": false,
 
-        "incompatibilities": ["brightenedBirch", "darkenedDarkOak", "maroonCrimson", "verticalWoodPlanks"]
+        "incompatibilities": ["brightenedBirch", "darkenedDarkOak", "maroonCrimson"]
     },
     {
 
@@ -1869,7 +2221,9 @@
 
         "hidden": false,
 
-        "lang": false
+        "lang": false,
+
+        "incompatibilities": ["3dMinecarts"]
     },
     {
 
@@ -2118,6 +2472,14 @@
     },
     {
         "id": "blockstateIndicatingActivation-AND-smoothStoneLever",
+        "hidden": true
+    },
+    {
+        "id": "3dTrapdoors-AND-trapdoorHandlesHinges",
+        "hidden": true
+    },
+    {
+        "id": "3dMinecarts-AND-animatedFurnaces",
         "hidden": true
     },
     {

@@ -8,6 +8,10 @@
 		"name": "Redstone"
 	},
 	{
+		"id": "3d",
+		"name": "3D"
+	},
+	{
 		"id": "entity",
 		"name": "Entity"
 	},
