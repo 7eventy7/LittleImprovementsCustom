@@ -858,7 +858,7 @@
 
         "label": "Blockstate Indicating Repeater & Comparator",
 
-        "description": "Side, bottom and top blockstate indicators",
+        "description": "Adds blockstate indicators to the side, bottom and top of repeaters & comparators",
 
         "category": "redstone",
         
@@ -1058,7 +1058,7 @@
 
         "label": "Blockstate Indicating Composter",
 
-        "description": "Blockstate indicators on all composter sides",
+        "description": "Adds blockstate indicators to all composter sides",
 
         "category": "redstone",
         
@@ -1079,7 +1079,7 @@
 
         "label": "Blockstate Indicating Cauldron",
 
-        "description": "Blockstate indicators on all cauldron sides",
+        "description": "Adds blockstate indicators to all cauldron sides",
 
         "category": "redstone",
         
@@ -1116,7 +1116,7 @@
 
         "label": "Blockstate Indicating Activation",
 
-        "description": "Visually powered levers, pressure plates & buttons",
+        "description": "Adds blockstate indicators to the lever, pressure plates & buttons",
 
         "category": "redstone",
         
