@@ -1,9 +1,15 @@
 [
 	{
+		"title": "Discord",
+		"iconName": "discord",
+		"style": "fab",
+		"url": "https://discord.gg/rQnHt8y3VB"
+	},
+	{
 		"title": "GitHub",
 		"iconName": "github",
 		"style": "fab",
-		"url": "https://github.com/7eventy7/LittleImprovementsCustom"
+		"url": "https://github.com/7eventy7/Self-Serve"
 	},
 	{
 		"title": "PMC",
