@@ -34,5 +34,9 @@
 	{
 		"url": "/404/mobile",
 		"file": "public/404_mobile.html"
+	},
+	{
+		"url": "/discord",
+		"file": "public/discord.html"
 	}
 ]

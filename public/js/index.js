@@ -46,7 +46,7 @@ function toggleSelected(id) {
 function mouseOver() {
 	document.getElementById(this.id+"Img").classList.add("invisible")
 	document.getElementById(this.id+"Desc").classList.remove("invisible")
-	document.getElementById(this.id+"Author").classList.remove("invisible")
+	if (document.getElementById(this.id+"Author").innerText != "By: undefined") document.getElementById(this.id+"Author").classList.remove("invisible")
 }
 function mouseOut() {
 	document.getElementById(this.id+"Img").classList.remove("invisible")
