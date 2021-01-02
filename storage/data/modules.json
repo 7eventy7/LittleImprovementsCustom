@@ -1190,11 +1190,11 @@
     },
     {
 
-        "id": "3dMinecarts",
+        "id": "3dLadder",
 
-        "label": "3D Minecarts",
+        "label": "3D Ladder",
 
-        "description": "Adds 3D models to all minecart items",
+        "description": "Adds a 3D model to the ladder block & item",
 
         "category": "3d",
         
@@ -1202,14 +1202,7 @@
 
         "hidden": false,
 
-        "lang": false,
-
-        "incompatibilities": ["furnaceMinecartItemOutlineFix"],
-
-        "merges": [{
-            "id": "animatedFurnaces",
-            "mergeWith": "3dMinecarts-AND-animatedFurnaces"
-        }]
+        "lang": false
     },
     {
 
@@ -1231,11 +1224,11 @@
     },
     {
 
-        "id": "3dLadder",
+        "id": "3dMinecarts",
 
-        "label": "3D Ladder",
+        "label": "3D Minecarts",
 
-        "description": "Adds a 3D model to the ladder block & item",
+        "description": "Adds 3D models to all minecart items",
 
         "category": "3d",
         
@@ -1243,7 +1236,14 @@
 
         "hidden": false,
 
-        "lang": false
+        "lang": false,
+
+        "incompatibilities": ["furnaceMinecartItemOutlineFix"],
+
+        "merges": [{
+            "id": "animatedFurnaces",
+            "mergeWith": "3dMinecarts-AND-animatedFurnaces"
+        }]
     },
     {
 
