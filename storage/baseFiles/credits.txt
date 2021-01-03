@@ -14,10 +14,11 @@ SELF-SERVE DEVELOPMENT TEAM:
 SELF-SERVE ASSET CONTRIBUTORS:
 
 ✏ Jasper Boerstra            🔗 https://twitter.com/jasperboerstra?lang=en                    ➤ Jappa Clock | Jappa Compass
-✏ Vanilla Tweaks             🔗 https://twitter.com/jasperboerstra?lang=en                    ➤ Blockstate Indicating Hopper | Kelp Flowers
+✏ Vanilla Tweaks             🔗 https://vanillatweaks.net/picker/resource-packs/              ➤ Blockstate Indicating Hopper | Kelp Flowers | Jappa GUI Icons
 ✏ Daggsy                     🔗 https://www.planetminecraft.com/member/daggsy/                ➤ Smooth Dropper & Dispenser
 ✏ Kemiu                      🔗 https://www.planetminecraft.com/member/kemiu/                 ➤ Growing Nether Wart
 ✏ Chubins                    🔗 https://www.planetminecraft.com/member/chubins_-ve/           ➤ Nylium Top Fix
+✏ Hoovi                      🔗 https://www.planetminecraft.com/member/hoovi/                 ➤ Smooth Font
 ✏ SinonSR                    🔗 https://www.planetminecraft.com/member/sinonsr/               ➤ Dark Sticks
 ✏ StormDragon77              🔗 https://www.planetminecraft.com/member/stormdragon77/         ➤ `All Door Packs`
 
@@ -26,11 +27,6 @@ SELF-SERVE ASSET CONTRIBUTORS:
 
 ♢Make sure to check it out!
 https://www.littleimprovements-custom.tk/ | https://github.com/LittleImprovementsCustom/LittleImprovementsCustom
-
-
-
-
-
 
 
 
