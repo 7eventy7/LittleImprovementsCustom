@@ -1,4 +1,4 @@
-✒ License: https://creativecommons.org/licenses/by-sa/4.0/deed.en | https://creativecommons.org/licenses/by-sa/4.0/legalcode
+✒ License For Resource Packs: https://creativecommons.org/licenses/by-sa/4.0/deed.en | https://creativecommons.org/licenses/by-sa/4.0/legalcode
 ===================================================================================================================================
 SELF-SERVE DEVELOPMENT TEAM: 
 
@@ -27,8 +27,3 @@ SELF-SERVE ASSET CONTRIBUTORS:
 
 ♢Make sure to check it out!
 https://www.littleimprovements-custom.tk/ | https://github.com/LittleImprovementsCustom/LittleImprovementsCustom
-
-
-
-
-
