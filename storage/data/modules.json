@@ -1631,11 +1631,11 @@
     },
     {
 
-        "id": "jappaHotbar",
+        "id": "numberedHotbar",
 
-        "label": "Jappa Hotbar",
+        "label": "Numbered Hotbar",
 
-        "description": "Overhauls hotbar which was not updated in 1.14",
+        "description": "Adds numbers to the each slot in the hotbar coresspending to the key shortcut",
 
         "category": "gui",
         
@@ -1643,13 +1643,41 @@
 
         "hidden": false,
 
-        "lang": false
+        "lang": false,
+
+        "merges": [{
+            "id": "darkModeGui",
+            "mergeWith": "numberedHotbar-AND-darkModeGui"
+        }]
     },
     {
 
-        "id": "jappaGui",
+        "id": "darkModeGui",
 
-        "label": "Jappa Gui",
+        "label": "Dark Mode Gui",
+
+        "description": "Recolors all buttons & container menus to follow a darker color scheme",
+
+        "category": "gui",
+        
+        "iconType": "png",
+
+        "hidden": false,
+
+        "lang": false,
+
+        "incompatibilities": ["jappaGuiIcons"],
+
+        "merges": [{
+            "id": "numberedHotbar",
+            "mergeWith": "numberedHotbar-AND-darkModeGui"
+        }]
+    },
+    {
+
+        "id": "jappaGuiIcons",
+
+        "label": "Jappa GUI Icons",
 
         "description": "Overhauls many icons that were not updated in 1.14",
 
@@ -1659,7 +1687,9 @@
 
         "hidden": false,
 
-        "lang": false
+        "lang": false,
+
+        "incompatibilities": ["darkModeGui"]
     },
     {
 
@@ -1711,9 +1741,9 @@
     },
     {
 
-        "id": "smoothMinecraftFont",
+        "id": "smoothFont",
 
-        "label": "Smooth Minecraft Font",
+        "label": "Smooth Font",
 
         "description": "Smoothens out & increases resolution of the default font",
 
@@ -2515,6 +2545,10 @@
     },
     {
         "id": "longSides-AND-nyliumTopFix",
+        "hidden": true
+    },
+    {
+        "id": "numberedHotbar-AND-darkModeGui",
         "hidden": true
     }
 ]

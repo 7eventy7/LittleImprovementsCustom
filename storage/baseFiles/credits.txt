@@ -1,4 +1,4 @@
-✒ License for Resource Packs: https://creativecommons.org/licenses/by-sa/4.0/deed.en | https://creativecommons.org/licenses/by-sa/4.0/legalcode
+✒ License For Resource Packs: https://creativecommons.org/licenses/by-sa/4.0/deed.en | https://creativecommons.org/licenses/by-sa/4.0/legalcode
 ===================================================================================================================================
 SELF-SERVE DEVELOPMENT TEAM: 
 
@@ -6,18 +6,19 @@ SELF-SERVE DEVELOPMENT TEAM:
 ✦ 7eventy7                    🔗 https://www.planetminecraft.com/member/7eventy/
 
 [WEBSITE]
-✦ Beatso                      🔗 https://www.beatso.tk/
+✦ Beatso                      🔗 https://www.beatso.tk/+=
 ✦ Banakin                     🔗 https://twitter.com/Banakin9
 ✦ captainCamel                🔗 https://github.com/captain-camel
 
 ====================================================================================================================================
 SELF-SERVE ASSET CONTRIBUTORS:
 
-✏ Jasper Boerstra            🔗 https://twitter.com/jasperboerstra                            ➤ Jappa Clock | Jappa Compass
-✏ Vanilla Tweaks             🔗 https://twitter.com/jasperboerstra                            ➤ Blockstate Indicating Hopper | Kelp Flowers
+✏ Jasper Boerstra            🔗 https://twitter.com/jasperboerstra?lang=en                    ➤ Jappa Clock | Jappa Compass
+✏ Vanilla Tweaks             🔗 https://vanillatweaks.net/picker/resource-packs/              ➤ Blockstate Indicating Hopper | Kelp Flowers | Jappa GUI Icons
 ✏ Daggsy                     🔗 https://www.planetminecraft.com/member/daggsy/                ➤ Smooth Dropper & Dispenser
 ✏ Kemiu                      🔗 https://www.planetminecraft.com/member/kemiu/                 ➤ Growing Nether Wart
 ✏ Chubins                    🔗 https://www.planetminecraft.com/member/chubins_-ve/           ➤ Nylium Top Fix
+✏ Hoovi                      🔗 https://www.planetminecraft.com/member/hoovi/                 ➤ Smooth Font
 ✏ SinonSR                    🔗 https://www.planetminecraft.com/member/sinonsr/               ➤ Dark Sticks
 ✏ StormDragon77              🔗 https://www.planetminecraft.com/member/stormdragon77/         ➤ `All Door Packs`
 
