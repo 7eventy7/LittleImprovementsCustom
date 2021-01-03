@@ -1,4 +1,4 @@
-✒ Liscense: https://creativecommons.org/licenses/by-sa/4.0/deed.en | https://creativecommons.org/licenses/by-sa/4.0/legalcode
+✒ License: https://creativecommons.org/licenses/by-sa/4.0/deed.en | https://creativecommons.org/licenses/by-sa/4.0/legalcode
 ===================================================================================================================================
 SELF-SERVE DEVELOPMENT TEAM: 
 
